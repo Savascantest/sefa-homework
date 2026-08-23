@@ -1,0 +1,198 @@
+{
+  "id": "2026-08-16-B9FE88C2",
+  "meetingUuid": "B9FE88C2-529A-4185-A54A-B5CF6B74A79E",
+  "date": "2026-08-16",
+  "dateLabel": "16 Ağustos dersi",
+  "title": "Places, People & Clear Sentences",
+  "subtitle": "Kişilik sıfatlarını tekrar et, yerleri tarif et ve in / on / at seçimini bağlamla öğren.",
+  "questionCount": 88,
+  "days": [
+    {
+      "id": "day-1-personality",
+      "shortTitle": "To Be + Personality",
+      "focus": "Eski konuyu sağlamlaştır",
+      "title": "İnsanları to be ile tarif et",
+      "intro": "Bu tekrar, derste konuştuğunuz personality adjectives konusunu korur. Amaç sıfatı doğru to be biçimiyle kullanmak ve kişiye özel cümleler kurmaktır.",
+      "remember": "Bir kişiyi sıfatla tarif ederken am / is / are gerekir: She is creative. They are polite.",
+      "watchOut": "Sıfatın önüne gereksiz a/an getirme: He is hardworking, He is a hardworking person.",
+      "rules": [
+        {"title":"Doğru to be biçimi","text":"I ile am, he/she/it ile is, you/we/they ile are kullan.","examples":["I am careful.","My colleague is hardworking.","They are friendly."]},
+        {"title":"Sıfat ve isim","text":"Sıfat tek başına veya bir isimden önce gelebilir. İsim kullanırsan tekil sayılabilir isimde a/an gerekir.","examples":["She is creative.","She is a creative designer."]},
+        {"title":"Olumsuz ve soru","text":"Olumsuzda not ekle; soruda am/is/are başa gelir.","examples":["He isn't rude.","Are your colleagues helpful?"]}
+      ],
+      "words": [
+        {"en":"hardworking","tr":"çalışkan","type":"adjective","definition":"working with a lot of effort","example":"My colleague is hardworking and finishes every task."},
+        {"en":"creative","tr":"yaratıcı","type":"adjective","definition":"able to produce new and interesting ideas","example":"She is creative and has interesting ideas."},
+        {"en":"polite","tr":"kibar","type":"adjective","definition":"showing good manners","example":"The receptionist is always polite."},
+        {"en":"shy","tr":"utangaç","type":"adjective","definition":"nervous about speaking to people","example":"He is shy when he meets new people."},
+        {"en":"annoyed","tr":"sinirlenmiş","type":"adjective","definition":"slightly angry or irritated","example":"I am annoyed because the bus is late."}
+      ],
+      "practice": [
+        {"prompt":"My colleague ___ very hardworking.","options":["am","is","are","be"],"answer":1,"feedback":"My colleague tekil olduğu için is gerekir.","hint":"Öznenin tekil mi çoğul mu olduğuna bak."},
+        {"prompt":"Choose the natural sentence.","options":["She is a creative.","She creative is.","She is creative.","She are creative."],"answer":2,"feedback":"Sıfat tek başına kullanıldığında a/an gelmez.","hint":"to be + adjective kalıbını ara."},
+        {"prompt":"___ your new manager polite?","options":["Am","Is","Are","Does"],"answer":1,"feedback":"Manager tekil; to be sorusunda Is başa gelir.","hint":"Cümlede başka fiil yok, polite bir sıfat."},
+        {"prompt":"They ___ shy; they speak to everyone.","options":["isn't","aren't","don't","not"],"answer":1,"feedback":"They ile are not / aren't kullanılır.","hint":"They için doğru to be olumsuzunu seç."}
+      ],
+      "reading": {
+        "title":"Two colleagues",
+        "paragraphs":["Ece and Murat work in the same office. Ece is creative and friendly. She always has interesting ideas, and she is polite when she explains them.","Murat is hardworking and careful. He is sometimes shy in large meetings, but he is not lazy. Ece and Murat are very different, but they are a good team."],
+        "questions":[
+          {"prompt":"What is Ece like?","options":["Creative and friendly","Lazy and rude","Shy and annoyed","Careless"],"answer":0,"feedback":"The first paragraph describes Ece as creative and friendly.","hint":"Read the second sentence."},
+          {"prompt":"Murat is always confident in large meetings.","options":["True","False","Not stated","Sometimes"],"answer":1,"feedback":"The text says he is sometimes shy.","hint":"Find the sentence about meetings."},
+          {"prompt":"Why are they a good team?","options":["They are exactly the same.","They never work.","Their different strengths work well together.","They are both rude."],"answer":2,"feedback":"The final sentence connects their differences with being a good team.","hint":"Use the contrast in the last sentence."}
+        ]
+      },
+      "listening":{"source":"British Council · A1","title":"Listen for personality adjectives","resource":"Describing people","instructions":"Önce bir kez altyazısız dinle. İkinci dinlemede kişileri tarif eden sıfatları not al.","task":"En az üç sıfat yaz ve her biriyle kendi hayatından bir cümle kur.","followUp":"Which person sounds most like someone you know? Write two sentences.","url":"https://learnenglishteens.britishcouncil.org/skills/listening/a1-listening/describing-people"},
+      "test": [
+        {"prompt":"I ___ careful at work.","options":["am","is","are","be"],"answer":0,"feedback":"I am is the correct form.","hint":"Which form follows I?"},
+        {"prompt":"My friends ___ very friendly.","options":["am","is","are","does"],"answer":2,"feedback":"Friends is plural, so use are.","hint":"Check whether the subject is plural."},
+        {"prompt":"He ___ rude; he always says please.","options":["is","isn't","aren't","doesn't"],"answer":1,"feedback":"The second clause shows the negative is needed.","hint":"Polite behaviour contradicts rude."},
+        {"prompt":"___ she a creative person?","options":["Am","Are","Is","Does"],"answer":2,"feedback":"Use Is with she.","hint":"Move to be before the subject."},
+        {"prompt":"Choose the correct sentence.","options":["They is polite.","They are polite.","They polite.","They are a polite."],"answer":1,"feedback":"They requires are; polite is used without a.","hint":"Use subject + to be + adjective."},
+        {"prompt":"A person who works with a lot of effort is ___.","options":["shy","hardworking","rude","annoyed"],"answer":1,"feedback":"Hardworking means çalışkan.","hint":"Think of someone who puts effort into work."},
+        {"prompt":"A person with new and interesting ideas is ___.","options":["creative","lazy","polite","shy"],"answer":0,"feedback":"Creative is the correct adjective.","hint":"Which word is connected to ideas?"},
+        {"prompt":"Which sentence includes a noun after the adjective?","options":["She is creative.","She is a creative designer.","She creative.","She is creativity."],"answer":1,"feedback":"Designer is the noun, so a creative designer is correct.","hint":"Look for adjective + noun."},
+        {"prompt":"We ___ annoyed about the delay.","options":["am","is","are","be"],"answer":2,"feedback":"We requires are.","hint":"Use the plural form of to be."},
+        {"prompt":"___ you shy when you meet new people?","options":["Is","Are","Do","Am"],"answer":1,"feedback":"Use Are with you in a to be question.","hint":"There is no action verb here."},
+        {"prompt":"Which is NOT a personality adjective?","options":["polite","creative","office","hardworking"],"answer":2,"feedback":"Office is a place/noun.","hint":"Which word cannot describe a person?"},
+        {"prompt":"The receptionist helps everyone and speaks kindly. She is ___.","options":["rude","polite","lazy","annoyed"],"answer":1,"feedback":"Her behaviour is polite.","hint":"Focus on good manners."},
+        {"prompt":"Choose the negative sentence.","options":["He is shy.","He isn't shy.","Is he shy?","He shy."],"answer":1,"feedback":"Isn't makes the sentence negative.","hint":"Look for not."},
+        {"prompt":"Which short answer is correct: Is Murat hardworking?","options":["Yes, he is.","Yes, he does.","Yes, he are.","Yes, is."],"answer":0,"feedback":"Repeat the correct to be form in the short answer.","hint":"The question starts with Is."},
+        {"prompt":"They are ___ team.","options":["good","a good","an good","a goodly"],"answer":1,"feedback":"Team is a singular countable noun: a good team.","hint":"An adjective comes before a singular noun."}
+      ]
+    },
+    {
+      "id":"day-2-there-is-are","shortTitle":"There Is / There Are","focus":"Yerler ve nesneler","title":"Bir yerde ne olduğunu anlat","intro":"There is / there are konusu korunuyor çünkü yeni yer edatları için temel oluşturuyor. Bugün ofis, üniversite ve çevrendeki yerleri anlat.","remember":"Tekil veya sayılamayan isimde there is; çoğul isimde there are kullan.","watchOut":"There is nerede olduğunu değil, bir şeyin var olduğunu söyler. Konum için sonra in/on/at gibi bir ifade ekleyebilirsin.",
+      "rules":[
+        {"title":"Tekil ve sayılamayan","text":"Bir şey veya sayılamayan bir madde varsa there is kullan.","examples":["There is an office on the second floor.","There is water in the bottle."]},
+        {"title":"Çoğul","text":"Birden fazla şey için there are kullan.","examples":["There are two stations near my office.","There are books on the desk."]},
+        {"title":"Soru ve olumsuz","text":"Soruda is/are başa gelir. Olumsuzda isn't/aren't kullan.","examples":["Is there a university nearby?","There aren't any buses now."]}
+      ],
+      "words":[
+        {"en":"office","tr":"ofis","type":"noun","definition":"a room or building where people work","example":"There is a quiet office on this floor."},
+        {"en":"university","tr":"üniversite","type":"noun","definition":"a place for higher education","example":"There is a university near the station."},
+        {"en":"station","tr":"istasyon","type":"noun","definition":"a place where trains or buses stop","example":"There are two stations in the city."},
+        {"en":"platform","tr":"peron","type":"noun","definition":"the area beside a train where passengers wait","example":"There are many people on the platform."},
+        {"en":"neighbourhood","tr":"mahalle / çevre","type":"noun","definition":"the area around where someone lives","example":"There is a park in my neighbourhood."}
+      ],
+      "practice":[
+        {"prompt":"___ a police station near my office.","options":["There is","There are","Is there","Are there"],"answer":0,"feedback":"Police station is singular.","hint":"Count the noun after the gap."},
+        {"prompt":"___ three people on the platform.","options":["There is","There are","Is there","There isn't"],"answer":1,"feedback":"Three people is plural.","hint":"A number greater than one needs the plural form."},
+        {"prompt":"___ any universities in this city?","options":["Is there","Are there","There are","There is"],"answer":1,"feedback":"Universities is plural and this is a question.","hint":"Put the plural to be form first."},
+        {"prompt":"There ___ any water in the bottle.","options":["aren't","isn't","are","be"],"answer":1,"feedback":"Water is uncountable, so use isn't.","hint":"Treat water as singular here."}
+      ],
+      "reading":{"title":"Around my office","paragraphs":["My office is in a busy neighbourhood. There is a small café next to the building, and there is a bus stop in front of it. There are two banks on the same street.","There isn't a train station nearby, but there are frequent buses. Inside the office, there is a kitchen and there are three meeting rooms."],"questions":[
+        {"prompt":"What is next to the office building?","options":["A café","A university","A station","A park"],"answer":0,"feedback":"The café is next to the building.","hint":"Read the first sentence about nearby places."},
+        {"prompt":"There is a train station nearby.","options":["True","False","Not stated","Sometimes"],"answer":1,"feedback":"The text says there isn't a train station nearby.","hint":"Look at the second paragraph."},
+        {"prompt":"How many meeting rooms are there?","options":["One","Two","Three","Four"],"answer":2,"feedback":"There are three meeting rooms.","hint":"Read the final sentence."}
+      ]},
+      "listening":{"source":"British Council · A1–A2","title":"Listen for places and positions","resource":"Starting Out: Where are you?","instructions":"Videoyu bir kez genel anlam için izle. İkinci kez yer adlarını ve there is/are örneklerini yakala.","task":"Duyduğun üç yer ifadesini not et.","followUp":"Describe what there is near your home in three sentences.","url":"https://learnenglish.britishcouncil.org/free-resources/general/video-series/starting-out/episode-04-where-are-you"},
+      "test":[
+        {"prompt":"___ a park in my neighbourhood.","options":["There is","There are","Are there","There"],"answer":0,"feedback":"A park is singular.","hint":"Count the noun."},
+        {"prompt":"___ two banks on this street.","options":["There is","There are","Is there","There isn't"],"answer":1,"feedback":"Two banks is plural.","hint":"Use the plural form."},
+        {"prompt":"___ a kitchen in the office?","options":["Are there","Is there","There is","There are"],"answer":1,"feedback":"A kitchen is singular and the sentence is a question.","hint":"Move is before there."},
+        {"prompt":"There ___ any buses after midnight.","options":["isn't","aren't","is","be"],"answer":1,"feedback":"Buses is plural.","hint":"Choose the plural negative."},
+        {"prompt":"There ___ some water on the table.","options":["are","is","aren't","be"],"answer":1,"feedback":"Water is uncountable and takes is.","hint":"Do not count water as individual items."},
+        {"prompt":"Choose the correct sentence.","options":["There are an office.","There is an office.","There an office is.","Is an office there."],"answer":1,"feedback":"Use there is with a singular noun.","hint":"The noun is singular."},
+        {"prompt":"Which question asks about several stations?","options":["Is there a station?","Are there any stations?","There are stations?","Is there stations?"],"answer":1,"feedback":"Are there begins a plural question.","hint":"Stations is plural."},
+        {"prompt":"There is ___ café next to the building.","options":["a","some","any","two"],"answer":0,"feedback":"Café is a singular countable noun.","hint":"Use an article for one café."},
+        {"prompt":"There are many people ___ the platform.","options":["on","at","in","to"],"answer":0,"feedback":"People wait on the platform surface/area.","hint":"Think of the platform as an area or surface."},
+        {"prompt":"What does neighbourhood mean?","options":["A job","The area around your home","A train","A room"],"answer":1,"feedback":"Neighbourhood is the surrounding local area.","hint":"It describes an area."},
+        {"prompt":"Which noun is uncountable here?","options":["office","station","water","platform"],"answer":2,"feedback":"Water is uncountable.","hint":"Which one is not normally counted as one, two, three?"},
+        {"prompt":"There ___ three meeting rooms.","options":["is","are","isn't","be"],"answer":1,"feedback":"Three rooms requires are.","hint":"The number shows plural."},
+        {"prompt":"Short answer: Is there a café?","options":["Yes, there is.","Yes, it are.","Yes, there are.","Yes, is there."],"answer":0,"feedback":"Repeat there is in the singular short answer.","hint":"The question starts Is there."},
+        {"prompt":"Short answer: Are there any banks?","options":["No, there isn't.","No, they isn't.","No, there aren't.","No, aren't."],"answer":2,"feedback":"Use there aren't for a plural negative answer.","hint":"The question starts Are there."},
+        {"prompt":"There isn't ___ station nearby.","options":["a","many","two","some"],"answer":0,"feedback":"Station is singular, so use a.","hint":"One singular countable place needs an article."}
+      ]
+    },
+    {
+      "id":"day-3-place-prepositions","shortTitle":"In / On / At","focus":"Yeni ders konusu","title":"Yeri bağlama göre seç","intro":"Derste in, on, at, under, next to, on the right ve on the left üzerinde durdunuz. Kelime kelime çeviri yerine, yerin alan mı, yüzey mi yoksa nokta mı olduğuna bak.","remember":"in = bir alanın içinde; on = yüzey, hat veya toplu taşıma; at = belirli nokta veya etkinlik.","watchOut":"Türkçedeki -de/-da her zaman tek bir İngilizce kelimeye dönüşmez. Doğru seçim bağlama bağlıdır.",
+      "rules":[
+        {"title":"IN: içinde / alan","text":"Sınırları olan bir alan, şehir, ülke veya oda için sıkça in kullan.","examples":["I work in an office.","She lives in Germany.","The keys are in the bag."]},
+        {"title":"ON: yüzey / hat / ulaşım","text":"Bir yüzeyde, katta, sokakta veya otobüs-tren gibi toplu taşıma araçlarında on kullan.","examples":["The picture is on the wall.","My office is on King Street.","I am on the bus."]},
+        {"title":"AT: nokta / kurum / etkinlik","text":"Belirli bir nokta, adres, iş yeri veya etkinliğe odaklanırken at kullan.","examples":["Meet me at the station.","I am at work.","The office is at 10 King Street."]},
+        {"title":"Diğer konumlar","text":"Under, next to, on the right ve on the left iki şeyin birbirine göre konumunu açıklar.","examples":["The bag is under the desk.","The café is next to the university."]}
+      ],
+      "words":[
+        {"en":"spend time","tr":"zaman geçirmek","type":"phrase","definition":"to use time doing an activity","example":"I spend time reading on the train."},
+        {"en":"make friends","tr":"arkadaş edinmek","type":"phrase","definition":"to begin friendships with people","example":"It is easy to make friends at university."},
+        {"en":"have difficulty","tr":"zorluk çekmek","type":"phrase","definition":"to find something hard to do","example":"I have difficulty choosing the right preposition."},
+        {"en":"all day long","tr":"bütün gün boyunca","type":"phrase","definition":"during the whole day","example":"I sit at my desk all day long."},
+        {"en":"nearby","tr":"yakında","type":"adverb / adjective","definition":"not far away","example":"There is a station nearby."}
+      ],
+      "practice":[
+        {"prompt":"I work ___ an office, but today I am ___ home.","options":["at / in","in / at","on / in","in / on"],"answer":1,"feedback":"The room/building is an area: in an office. Home is the fixed expression at home.","hint":"One is an enclosed workspace; the other is a fixed home expression."},
+        {"prompt":"The address is ___ 10 King Street.","options":["in","on","at","under"],"answer":2,"feedback":"Use at for a precise address.","hint":"A house number makes the location very specific."},
+        {"prompt":"There is a picture ___ the wall.","options":["at","on","in","next"],"answer":1,"feedback":"The picture touches/is displayed on a surface.","hint":"Think about a surface."},
+        {"prompt":"The bag is ___ the desk, not on it.","options":["under","at","in","nearby"],"answer":0,"feedback":"Under means below something.","hint":"The final phrase says not on top."}
+      ],
+      "reading":{"title":"From home to work","paragraphs":["I live in Hamburg and work in an office on Hafen Street. Every morning, I wait at the bus stop. I read on the bus and get off next to the university.","My office is at 18 Hafen Street, on the third floor. My desk is on the right. There is a small cabinet under the window and a printer next to the door. I spend time at my desk all day long, but I have lunch in the kitchen."],"questions":[
+        {"prompt":"Where does the writer wait?","options":["At the bus stop","In the bus stop","On the office","Under the street"],"answer":0,"feedback":"The text uses at for the stop as a point.","hint":"Read the morning routine."},
+        {"prompt":"The office is on the third floor.","options":["True","False","Not stated","Only sometimes"],"answer":0,"feedback":"This appears in the second paragraph.","hint":"Find the floor number."},
+        {"prompt":"What is next to the door?","options":["The desk","The printer","The bus stop","The university"],"answer":1,"feedback":"The printer is next to the door.","hint":"Read the office layout sentence."}
+      ]},
+      "listening":{"source":"British Council · A1","title":"Listen for directions","resource":"Finding the library","instructions":"İlk dinlemede hedef yeri bul. İkinci dinlemede konum ve yön ifadelerini yaz.","task":"in, on, at, next to, right veya left içeren ifadeleri yakala.","followUp":"Give directions from your workplace entrance to your desk using three location phrases.","url":"https://learnenglish.britishcouncil.org/free-resources/listening/a1/finding-library"},
+      "test":[
+        {"prompt":"I live ___ Germany.","options":["at","in","on","under"],"answer":1,"feedback":"Use in with countries.","hint":"Germany is a large area."},
+        {"prompt":"Meet me ___ the station.","options":["in","on","at","under"],"answer":2,"feedback":"The station is treated as a meeting point.","hint":"Focus on the point where you meet."},
+        {"prompt":"My office is ___ King Street.","options":["on","at","in","under"],"answer":0,"feedback":"Use on with a street name without a number.","hint":"A street is treated as a line."},
+        {"prompt":"My office is ___ 10 King Street.","options":["on","in","at","next"],"answer":2,"feedback":"A precise address takes at.","hint":"The house number creates a precise point."},
+        {"prompt":"The keys are ___ my bag.","options":["at","on","in","under"],"answer":2,"feedback":"The bag contains the keys.","hint":"They are inside something."},
+        {"prompt":"The clock is ___ the wall.","options":["on","in","at","next"],"answer":0,"feedback":"The wall is a surface.","hint":"Think surface."},
+        {"prompt":"I am ___ the bus now.","options":["at","in","on","under"],"answer":2,"feedback":"Use on for public transport such as a bus.","hint":"This is public transport."},
+        {"prompt":"I am ___ work now.","options":["in","on","at","under"],"answer":2,"feedback":"At work is the fixed expression for the activity/location.","hint":"This is a common fixed expression."},
+        {"prompt":"The café is ___ the university.","options":["next to","under","on the bus","at 10"],"answer":0,"feedback":"Next to means beside.","hint":"Choose the expression meaning beside."},
+        {"prompt":"The shoes are ___ the bed.","options":["on the right","under","at","in Germany"],"answer":1,"feedback":"Under means below the bed.","hint":"Think of a lower position."},
+        {"prompt":"When I enter, the reception is ___.","options":["on the right","at Germany","in the wall","under London"],"answer":0,"feedback":"On the right describes relative position.","hint":"Choose a direction phrase."},
+        {"prompt":"What does spend time mean?","options":["Para harcamak only","Zaman geçirmek","Arkadaş edinmek","Zorluk çekmek"],"answer":1,"feedback":"Spend time means zaman geçirmek.","hint":"The object is time, not money."},
+        {"prompt":"I ___ choosing the correct word.","options":["make friends","have difficulty","all day long","nearby"],"answer":1,"feedback":"Have difficulty + -ing describes something hard to do.","hint":"The sentence describes a challenge."},
+        {"prompt":"Students can ___ at university.","options":["make friends","have nearby","spend office","at friends"],"answer":0,"feedback":"Make friends is the natural phrase.","hint":"Which phrase means arkadaş edinmek?"},
+        {"prompt":"Choose the most natural sentence.","options":["I am in home.","I am at home.","I am on home.","I am to home."],"answer":1,"feedback":"At home is the fixed expression.","hint":"Home uses a special common pattern."}
+      ]
+    },
+    {
+      "id":"day-4-review","shortTitle":"Complete Review","focus":"Karışık tekrar","title":"Üç konuyu tek bağlamda birleştir","intro":"Son gün yeni kural eklemez. Personality adjectives, there is/are ve place prepositions konularını aynı cümlelerde kullanarak kalıcı hale getirir.","remember":"Önce cümlenin işini belirle: kişiyi mi tarif ediyorsun, bir şeyin varlığını mı söylüyorsun, yoksa yerini mi belirtiyorsun?","watchOut":"Türkçeden kelime kelime çevirmek yerine mesajı kur: özne + doğru yapı + net yer ifadesi.",
+      "rules":[
+        {"title":"1. Kişiyi tarif et","text":"Subject + am/is/are + adjective.","examples":["My manager is polite.","Our colleagues are creative."]},
+        {"title":"2. Bir şeyin varlığını söyle","text":"There is/are + noun.","examples":["There is a new colleague.","There are two offices."]},
+        {"title":"3. Yerini netleştir","text":"Noun + is/are + place phrase.","examples":["The new colleague is at reception.","The offices are on the second floor."]}
+      ],
+      "words":[
+        {"en":"careful","tr":"dikkatli","type":"adjective","definition":"giving attention to avoid mistakes","example":"Be careful on the platform."},
+        {"en":"colleague","tr":"iş arkadaşı","type":"noun","definition":"a person you work with","example":"My colleague is in the meeting room."},
+        {"en":"entrance","tr":"giriş","type":"noun","definition":"a place where you enter","example":"There is a sign at the entrance."},
+        {"en":"on the left","tr":"solda","type":"place phrase","definition":"on the left-hand side","example":"The kitchen is on the left."},
+        {"en":"all day long","tr":"bütün gün boyunca","type":"time phrase","definition":"for the whole day","example":"There are buses all day long."}
+      ],
+      "practice":[
+        {"prompt":"There ___ a friendly receptionist ___ the entrance.","options":["is / at","are / in","is / on","are / at"],"answer":0,"feedback":"One receptionist requires is; the entrance is a point, so at.","hint":"Check number first, then type of location."},
+        {"prompt":"My colleagues ___ hardworking and they work ___ an office.","options":["is / at","are / in","are / on","am / in"],"answer":1,"feedback":"Colleagues is plural; an office is an enclosed work area.","hint":"Solve the two gaps separately."},
+        {"prompt":"There ___ two meeting rooms ___ the second floor.","options":["is / in","are / on","are / at","is / on"],"answer":1,"feedback":"Two rooms requires are; floors take on.","hint":"Count the rooms and think of the floor level."},
+        {"prompt":"Choose the clearest translation of 'Bütün gün ofisteyim.'","options":["I am in office all day long.","I am at the office all day long.","There is me office all day.","I on office every day long."],"answer":1,"feedback":"At the office identifies the workplace/location; all day long is the natural phrase.","hint":"Translate the meaning, not each Turkish ending."}
+      ],
+      "reading":{"title":"A new day at the office","paragraphs":["There is a new colleague in our office. His name is Can. He is polite, hardworking and a little shy. His desk is on the left, next to the printer.","There are three meeting rooms on our floor. The largest room is at the end of the corridor. Can has difficulty finding it, so I show him around. We spend time together at lunch and make friends."],"questions":[
+        {"prompt":"What is Can like?","options":["Polite, hardworking and a little shy","Rude and lazy","Only creative","Annoyed all day"],"answer":0,"feedback":"The first paragraph gives all three adjectives.","hint":"Find the sentence after his name."},
+        {"prompt":"Where is Can's desk?","options":["Under the printer","On the left, next to the printer","At the station","In Germany"],"answer":1,"feedback":"The first paragraph gives the exact position.","hint":"Look for two place phrases together."},
+        {"prompt":"Why does the writer show Can around?","options":["Can is rude.","There is no office.","Can has difficulty finding the meeting room.","They are on a bus."],"answer":2,"feedback":"The text directly connects his difficulty with the help.","hint":"Read the second paragraph's final two sentences."}
+      ]},
+      "listening":{"source":"ELLLO · A1","title":"Listen for be forms and introductions","resource":"Be verbs: introductions","instructions":"Dinlerken am/is/are biçimlerini ve kişilerin kendilerini nasıl tanıttığını not et.","task":"Üç doğru to be cümlesi yaz; birine bir yer ifadesi ekle.","followUp":"Introduce yourself, describe one colleague and say what there is near your workplace.","url":"https://www.elllo.org/book/A1/A1-01-Be-Verbs-Introductions.html"},
+      "test":[
+        {"prompt":"There ___ a polite receptionist ___ the entrance.","options":["is / at","are / on","is / in","are / at"],"answer":0,"feedback":"Singular receptionist takes is; entrance is a point.","hint":"Solve number, then location."},
+        {"prompt":"My office is ___ the third floor.","options":["at","on","in","under"],"answer":1,"feedback":"Use on with floor levels.","hint":"Think of a level in a building."},
+        {"prompt":"Our manager ___ very creative.","options":["am","is","are","be"],"answer":1,"feedback":"Manager is singular.","hint":"Choose the singular to be form."},
+        {"prompt":"There ___ two shy students in the room.","options":["is","are","am","be"],"answer":1,"feedback":"Two students is plural.","hint":"Count the students."},
+        {"prompt":"We are ___ the bus, but our bags are ___ the car.","options":["on / in","in / on","at / on","on / at"],"answer":0,"feedback":"Use on for public transport, in for a car/container.","hint":"The two types of transport follow different common patterns."},
+        {"prompt":"Choose the correct question.","options":["Are there a café?","Is there a café?","There is a café?","Does there café?"],"answer":1,"feedback":"A café is singular, so ask Is there...?","hint":"Start with the singular to be form."},
+        {"prompt":"Which sentence describes personality?","options":["There is a desk.","The desk is on the left.","My colleague is careful.","I am at work."],"answer":2,"feedback":"Careful describes the colleague.","hint":"Find an adjective describing a person."},
+        {"prompt":"Which sentence says something exists?","options":["There is a printer.","The printer is nearby.","He is polite.","We are at work."],"answer":0,"feedback":"There is introduces the existence of a printer.","hint":"Look for there is/are."},
+        {"prompt":"The university is ___ the station.","options":["next to","all day long","hardworking","there are"],"answer":0,"feedback":"Next to is a place phrase.","hint":"Only one option describes relative position."},
+        {"prompt":"I ___ difficulty remembering prepositions.","options":["make","spend","have","am"],"answer":2,"feedback":"The fixed phrase is have difficulty + -ing.","hint":"Recall the daily phrase."},
+        {"prompt":"We ___ time practising English at lunch.","options":["spend","make","are","have"],"answer":0,"feedback":"Spend time + -ing is the natural pattern.","hint":"Which verb combines with time?"},
+        {"prompt":"Sefa and his colleagues ___ friends at work.","options":["spend","make","have difficulty","are make"],"answer":1,"feedback":"Make friends is the correct phrase.","hint":"Which phrase means arkadaş edinmek?"},
+        {"prompt":"There aren't ___ meeting rooms here.","options":["any","a","an","one"],"answer":0,"feedback":"Any works in a plural negative sentence.","hint":"The noun is plural and the sentence is negative."},
+        {"prompt":"Choose the natural sentence.","options":["I am a hardworking.","I am hardworking.","I hardworking am.","I are hardworking."],"answer":1,"feedback":"Use am + adjective without an article.","hint":"There is no noun after the adjective."},
+        {"prompt":"Translate the idea, not word by word: 'Ofiste bir mutfak var.'","options":["At office a kitchen has.","There is a kitchen in the office.","A kitchen there office.","The office is a kitchen."],"answer":1,"feedback":"There is expresses existence; in the office gives location.","hint":"Separate existence from location."}
+      ]
+    }
+  ]
+}
