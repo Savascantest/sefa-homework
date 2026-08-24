@@ -105,7 +105,8 @@ function Test({ day, progress, update }) {
 
 function ArchivePicker({ lessons, activeId, onPick }) {
   if (lessons.length < 2) return null;
-  return <details className="archive"><summary><History size={17}/><span>Önceki ödevler</span><ChevronDown size={17}/></summary><div>{lessons.slice(1).map((lesson) => <button key={lesson.id} className={lesson.id === activeId ? 'active' : ''} onClick={() => onPick(lesson)}><span>{lesson.date}</span><strong>{lesson.title}</strong></button>)}</div></details>;
+  const newestId = lessons[0].id;
+  return <details className="archive" open={activeId !== newestId}><summary><History size={17}/><span>Ödevler arasında geçiş yap</span><ChevronDown size={17}/></summary><div>{lessons.filter((lesson) => lesson.id !== activeId).map((lesson) => <button key={lesson.id} onClick={() => onPick(lesson)}><span>{lesson.id === newestId ? `Güncel · ${lesson.date}` : lesson.date}</span><strong>{lesson.title}</strong></button>)}</div></details>;
 }
 
 export default function App() {
