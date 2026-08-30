@@ -1,0 +1,1429 @@
+{
+  "id": "2026-08-29-4A67D954",
+  "meetingUuid": "4A67D954-33A2-4955-95F3-0321DC126900",
+  "date": "2026-08-29",
+  "dateLabel": "29 Ağustos 2026",
+  "student": "Sefa",
+  "title": "Dört Günlük Aktif Plan",
+  "subtitle": "İki kısa tekrar günü; like / would like / be like ve possessive ’s ile iki yeni gün.",
+  "questionCount": 60,
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "summary": "Exactly four manageable days; two prior-topic mixed-review days; two new days; family vocabulary only on the possessive day."
+  },
+  "days": [
+    {
+      "id": "day-1-review",
+      "shortTitle": "Present review",
+      "focus": "Present Simple / Continuous kısa tekrar",
+      "title": "Present simple ile present continuous’ı ayır",
+      "intro": "Derste “I usually go to work by car, but today I am going by bus” karşılaştırmasını yaptın. Zaman ifadesini ve eylemin devam edip etmediğini kontrol ederek doğru yapıyı seç.",
+      "remember": "Genel alışkanlık ve gerçek → present simple. Şu anda veya geçici olarak devam eden eylem → am/is/are + verb-ing.",
+      "watchOut": "Present continuous için yalnızca -ing yetmez; am/is/are mutlaka gerekir: I am working, not I working.",
+      "rules": [
+        {
+          "title": "Genel ve tekrar eden",
+          "text": "Usually, every day, often, on Saturdays gibi ifadeler present simple ile sık kullanılır.",
+          "examples": [
+            "I usually drive to work.",
+            "She drinks tea every day."
+          ]
+        },
+        {
+          "title": "Şu an ve geçici",
+          "text": "Now, right now, at the moment ve today gibi geçici bağlamlarda present continuous kullan.",
+          "examples": [
+            "I am taking the bus today.",
+            "They are working at the moment."
+          ]
+        },
+        {
+          "title": "Aynı cümlede karşıtlık",
+          "text": "Normal rutini simple, bugünkü istisnayı continuous ile karşılaştırabilirsin.",
+          "examples": [
+            "I usually drink coffee, but today I am drinking tea.",
+            "He works at home, but this week he is working in the office."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "at the moment",
+          "tr": "şu anda",
+          "type": "time phrase",
+          "definition": "now",
+          "example": "I am working at the moment."
+        },
+        {
+          "en": "right now",
+          "tr": "tam şu anda",
+          "type": "time phrase",
+          "definition": "at this exact time",
+          "example": "She is talking to a client right now."
+        },
+        {
+          "en": "normally",
+          "tr": "normalde",
+          "type": "adverb",
+          "definition": "in the usual situation",
+          "example": "I normally go by car."
+        },
+        {
+          "en": "temporary",
+          "tr": "geçici",
+          "type": "adjective",
+          "definition": "lasting for a limited time",
+          "example": "This is a temporary change."
+        },
+        {
+          "en": "process",
+          "tr": "süreç",
+          "type": "noun",
+          "definition": "a series of actions continuing over time",
+          "example": "The action is a process, not a finished point."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I usually ___ coffee, but today I ___ tea.",
+          "options": [
+            "drink / am drinking",
+            "am drinking / drink",
+            "drinks / drinking",
+            "drink / drink"
+          ],
+          "answer": 0,
+          "feedback": "Routine uses simple; today’s action uses continuous.",
+          "hint": "Compare usually with today."
+        },
+        {
+          "prompt": "Look! Sefa ___ to a client.",
+          "options": [
+            "talks",
+            "is talking",
+            "talk",
+            "does talk"
+          ],
+          "answer": 1,
+          "feedback": "Look signals an action happening now.",
+          "hint": "Use be + -ing."
+        },
+        {
+          "prompt": "She ___ at a hospital every weekday.",
+          "options": [
+            "is working",
+            "work",
+            "works",
+            "working"
+          ],
+          "answer": 2,
+          "feedback": "Every weekday signals a routine.",
+          "hint": "She needs the third-person form."
+        },
+        {
+          "prompt": "Choose the correct continuous sentence.",
+          "options": [
+            "They working now.",
+            "They are work now.",
+            "They are working now.",
+            "They do working now."
+          ],
+          "answer": 2,
+          "feedback": "Present continuous is are + working.",
+          "hint": "You need be and -ing."
+        }
+      ],
+      "reading": {
+        "title": "A different Monday",
+        "paragraphs": [
+          "Sefa normally works from home. He usually drinks coffee in the morning and answers messages before his first meeting.",
+          "Today is different. He is working in a shared office, and he is drinking tea. His colleagues are preparing a presentation, so everyone is talking quietly."
+        ],
+        "questions": [
+          {
+            "prompt": "Where does Sefa normally work?",
+            "options": [
+              "At home",
+              "In a shared office",
+              "At a café",
+              "At a hospital"
+            ],
+            "answer": 0,
+            "feedback": "He normally works from home.",
+            "hint": "Read the first sentence."
+          },
+          {
+            "prompt": "What is Sefa drinking today?",
+            "options": [
+              "Coffee",
+              "Water",
+              "Tea",
+              "Juice"
+            ],
+            "answer": 2,
+            "feedback": "Today he is drinking tea.",
+            "hint": "Read the second paragraph."
+          },
+          {
+            "prompt": "Why is everyone talking quietly?",
+            "options": [
+              "They are sleeping.",
+              "They are preparing a presentation.",
+              "The office is closed.",
+              "Sefa is on holiday."
+            ],
+            "answer": 1,
+            "feedback": "The presentation preparation explains the quiet voices.",
+            "hint": "Use the final sentence."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A2",
+        "title": "Listen for actions happening now",
+        "resource": "Present Continuous",
+        "instructions": "Dört konuşmayı dinle. İkinci dinlemede her am/is/are + -ing yapısını durdurup yaz.",
+        "task": "Duyduğun dört devam eden eylemi ve onları yapan kişileri eşleştir.",
+        "followUp": "Write two routine sentences and two “right now” sentences.",
+        "url": "https://www.elllo.org/class/A2/A2-03-Present-Continuous.html"
+      },
+      "test": [
+        {
+          "prompt": "Every day, I ___ at nine.",
+          "options": [
+            "am starting",
+            "start",
+            "starts",
+            "starting"
+          ],
+          "answer": 1,
+          "feedback": "Every day takes present simple.",
+          "hint": "This is a routine."
+        },
+        {
+          "prompt": "Right now, I ___ a report.",
+          "options": [
+            "write",
+            "writes",
+            "am writing",
+            "writing"
+          ],
+          "answer": 2,
+          "feedback": "Right now takes present continuous.",
+          "hint": "Use am + -ing."
+        },
+        {
+          "prompt": "She usually ___ by bus.",
+          "options": [
+            "go",
+            "goes",
+            "is going",
+            "going"
+          ],
+          "answer": 1,
+          "feedback": "Usually signals present simple; she takes goes.",
+          "hint": "Habit + third person."
+        },
+        {
+          "prompt": "Today she ___ by train.",
+          "options": [
+            "goes",
+            "is going",
+            "go",
+            "does going"
+          ],
+          "answer": 1,
+          "feedback": "Today is a temporary exception here.",
+          "hint": "Use is + -ing."
+        },
+        {
+          "prompt": "They ___ at the moment.",
+          "options": [
+            "work",
+            "works",
+            "are working",
+            "is working"
+          ],
+          "answer": 2,
+          "feedback": "At the moment takes are working.",
+          "hint": "They uses are."
+        },
+        {
+          "prompt": "Choose the routine sentence.",
+          "options": [
+            "He is cooking now.",
+            "He cooks on Saturdays.",
+            "He was cooking.",
+            "He cooked once."
+          ],
+          "answer": 1,
+          "feedback": "On Saturdays signals repetition.",
+          "hint": "Find the regular time phrase."
+        },
+        {
+          "prompt": "Choose the action happening now.",
+          "options": [
+            "She reads every day.",
+            "She is reading now.",
+            "She read yesterday.",
+            "She usually reads."
+          ],
+          "answer": 1,
+          "feedback": "Is reading now is in progress.",
+          "hint": "Look for be + -ing and now."
+        },
+        {
+          "prompt": "Present continuous needs ___.",
+          "options": [
+            "do + verb",
+            "be + verb-ing",
+            "did + verb",
+            "verb-s only"
+          ],
+          "answer": 1,
+          "feedback": "The form is am/is/are + verb-ing.",
+          "hint": "Two parts are required."
+        },
+        {
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I drinking tea.",
+            "I am drink tea.",
+            "I am drinking tea.",
+            "I do drinking tea."
+          ],
+          "answer": 2,
+          "feedback": "Am + drinking is correct.",
+          "hint": "Check both parts."
+        },
+        {
+          "prompt": "Which word means “normalde”?",
+          "options": [
+            "temporary",
+            "normally",
+            "right now",
+            "process"
+          ],
+          "answer": 1,
+          "feedback": "Normally means normalde.",
+          "hint": "Think of the usual situation."
+        },
+        {
+          "prompt": "A change that will not last is ___.",
+          "options": [
+            "regular",
+            "temporary",
+            "always",
+            "finished"
+          ],
+          "answer": 1,
+          "feedback": "Temporary means geçici.",
+          "hint": "It has a limited duration."
+        },
+        {
+          "prompt": "I usually drink coffee, but today I ___ tea.",
+          "options": [
+            "drink",
+            "drinks",
+            "am drinking",
+            "do drink"
+          ],
+          "answer": 2,
+          "feedback": "Today’s exception uses present continuous.",
+          "hint": "Contrast the routine with now."
+        },
+        {
+          "prompt": "He works at home, but this week he ___ in the office.",
+          "options": [
+            "works",
+            "is working",
+            "work",
+            "working"
+          ],
+          "answer": 1,
+          "feedback": "This week is temporary in this context.",
+          "hint": "Use is + -ing."
+        },
+        {
+          "prompt": "Which phrase most clearly signals now?",
+          "options": [
+            "on Saturdays",
+            "every day",
+            "at the moment",
+            "usually"
+          ],
+          "answer": 2,
+          "feedback": "At the moment means now.",
+          "hint": "The others signal habits."
+        },
+        {
+          "prompt": "Choose the best question for now.",
+          "options": [
+            "What do you do now?",
+            "What are you doing right now?",
+            "What does you doing?",
+            "What you are do?"
+          ],
+          "answer": 1,
+          "feedback": "A current action uses are you doing.",
+          "hint": "Move are before the subject."
+        }
+      ]
+    },
+    {
+      "id": "day-2-review",
+      "shortTitle": "Context review",
+      "focus": "Önceki konularla karma tekrar",
+      "title": "Fiilin türünü ve zamanın anlamını birlikte kontrol et",
+      "intro": "Son gün; kişilik sıfatlarını, present simple sorularını ve devam eden eylemleri aynı iş günü bağlamında birleştirir. Ayrıca derste giriş yaptığınız finished action / action in progress ayrımını yalnızca anlam düzeyinde tanıyacaksın.",
+      "remember": "Önce ana fiili bul. Sonra şu soruyu sor: Bu bir durum/alışkanlık mı, şu an devam eden bir süreç mi, yoksa geçmişte tamamlanan bir olay mı?",
+      "watchOut": "Never zaten olumsuz anlam taşır. Standart olumlu yapı kullan: I never go. “I don’t never go” çift olumsuz olur.",
+      "rules": [
+        {
+          "title": "Never ile tek olumsuzluk",
+          "text": "Never, fiilden önce gelir ve ayrıca don’t/doesn’t istemez.",
+          "examples": [
+            "I never go to the library.",
+            "He never arrives late."
+          ]
+        },
+        {
+          "title": "Durum fiilleri",
+          "text": "Like, know, want ve have (sahip olmak) çoğunlukla durum bildirir; temel düzeyde present simple kullan.",
+          "examples": [
+            "I like soup.",
+            "She has a question.",
+            "He wants help."
+          ]
+        },
+        {
+          "title": "Geçmişte olay ve süreç",
+          "text": "Past simple tamamlanan olayı; past continuous belirli bir geçmiş anda devam eden süreci gösterir.",
+          "examples": [
+            "We played basketball yesterday.",
+            "We were playing basketball at six."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "never",
+          "tr": "asla / hiç",
+          "type": "adverb",
+          "definition": "not at any time",
+          "example": "I never use a double negative."
+        },
+        {
+          "en": "polite",
+          "tr": "kibar",
+          "type": "adjective",
+          "definition": "showing good manners",
+          "example": "The receptionist is polite."
+        },
+        {
+          "en": "habit",
+          "tr": "alışkanlık",
+          "type": "noun",
+          "definition": "something done regularly",
+          "example": "Reading every evening is a useful habit."
+        },
+        {
+          "en": "continue",
+          "tr": "devam etmek",
+          "type": "verb",
+          "definition": "to keep happening or doing something",
+          "example": "The meeting continued for an hour."
+        },
+        {
+          "en": "finished",
+          "tr": "tamamlanmış",
+          "type": "adjective",
+          "definition": "completed and no longer continuing",
+          "example": "The action is finished."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Choose the natural sentence.",
+          "options": [
+            "I don't never go.",
+            "I never go.",
+            "I never goes.",
+            "I am never go."
+          ],
+          "answer": 1,
+          "feedback": "Never already makes the meaning negative.",
+          "hint": "Use one negative marker."
+        },
+        {
+          "prompt": "At six yesterday, we ___ basketball.",
+          "options": [
+            "played",
+            "were playing",
+            "play",
+            "are playing"
+          ],
+          "answer": 1,
+          "feedback": "A specific past time inside an ongoing action uses were playing.",
+          "hint": "Focus on the action in progress."
+        },
+        {
+          "prompt": "She ___ a question.",
+          "options": [
+            "is having",
+            "has",
+            "have",
+            "does has"
+          ],
+          "answer": 1,
+          "feedback": "Possession uses present simple has.",
+          "hint": "Have means possess here."
+        },
+        {
+          "prompt": "The receptionist helps everyone and speaks kindly. She is ___.",
+          "options": [
+            "rude",
+            "polite",
+            "lazy",
+            "temporary"
+          ],
+          "answer": 1,
+          "feedback": "Kind helpful behaviour is polite.",
+          "hint": "Use the behaviour clue."
+        }
+      ],
+      "reading": {
+        "title": "A busy afternoon at work",
+        "paragraphs": [
+          "Sefa usually works quietly, and his colleagues say he is helpful. He never interrupts people during meetings. Today the office is busier than usual because the team is preparing a new project.",
+          "At three yesterday, Sefa was explaining a problem when a client called. He finished the explanation, answered the call and then continued his work."
+        ],
+        "questions": [
+          {
+            "prompt": "Which adjective describes Sefa?",
+            "options": [
+              "helpful",
+              "rude",
+              "lazy",
+              "shy"
+            ],
+            "answer": 0,
+            "feedback": "His colleagues say he is helpful.",
+            "hint": "Read the first sentence."
+          },
+          {
+            "prompt": "Why is the office busy today?",
+            "options": [
+              "The team is preparing a project.",
+              "Everyone is leaving.",
+              "A client is sleeping.",
+              "The office is closing."
+            ],
+            "answer": 0,
+            "feedback": "The team is preparing a new project.",
+            "hint": "Read the end of paragraph one."
+          },
+          {
+            "prompt": "What interrupted the explanation?",
+            "options": [
+              "A meeting",
+              "A client’s call",
+              "Lunch",
+              "A bus"
+            ],
+            "answer": 1,
+            "feedback": "A client called while he was explaining.",
+            "hint": "Read the second paragraph."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A2",
+        "title": "Listen for states and actions",
+        "resource": "Stative Verbs",
+        "instructions": "Dört konuşmayı dinle. Duyduğun look, sound, feel, smell, taste ve like örneklerini not al.",
+        "task": "Her durum fiilini yanındaki sıfat veya tamamlayıcıyla eşleştir.",
+        "followUp": "Write three true state sentences and one action happening now.",
+        "url": "https://elllo.org/book/A2/A2-21-Stative-Verbs.html"
+      },
+      "test": [
+        {
+          "prompt": "Choose the correct sentence with never.",
+          "options": [
+            "I don't never cook.",
+            "I never cook.",
+            "I never cooks.",
+            "I am never cook."
+          ],
+          "answer": 1,
+          "feedback": "Never is used without don’t.",
+          "hint": "Avoid a double negative."
+        },
+        {
+          "prompt": "He never ___ late.",
+          "options": [
+            "arrive",
+            "arrives",
+            "is arriving",
+            "does arrives"
+          ],
+          "answer": 1,
+          "feedback": "He takes arrives in present simple.",
+          "hint": "Never does not remove third-person -s."
+        },
+        {
+          "prompt": "I ___ soup.",
+          "options": [
+            "am liking",
+            "like",
+            "likes",
+            "do liking"
+          ],
+          "answer": 1,
+          "feedback": "Like is normally a state in present simple.",
+          "hint": "This is a preference, not an action process."
+        },
+        {
+          "prompt": "She ___ a question.",
+          "options": [
+            "have",
+            "has",
+            "is having",
+            "does has"
+          ],
+          "answer": 1,
+          "feedback": "Possession uses has.",
+          "hint": "She is third-person singular."
+        },
+        {
+          "prompt": "Right now, she ___ the client.",
+          "options": [
+            "helps",
+            "is helping",
+            "help",
+            "does helping"
+          ],
+          "answer": 1,
+          "feedback": "Right now uses present continuous.",
+          "hint": "Use is + -ing."
+        },
+        {
+          "prompt": "Every day, she ___ clients.",
+          "options": [
+            "is helping",
+            "helps",
+            "helping",
+            "does helps"
+          ],
+          "answer": 1,
+          "feedback": "Every day uses present simple.",
+          "hint": "She needs -s."
+        },
+        {
+          "prompt": "At six yesterday, we ___ basketball.",
+          "options": [
+            "played",
+            "were playing",
+            "are playing",
+            "play"
+          ],
+          "answer": 1,
+          "feedback": "The time points inside an ongoing past action.",
+          "hint": "Use past continuous."
+        },
+        {
+          "prompt": "Yesterday, we ___ basketball and went home.",
+          "options": [
+            "were playing",
+            "played",
+            "are playing",
+            "play"
+          ],
+          "answer": 1,
+          "feedback": "This presents completed events in sequence.",
+          "hint": "Use past simple."
+        },
+        {
+          "prompt": "Which adjective matches good manners?",
+          "options": [
+            "rude",
+            "polite",
+            "lazy",
+            "finished"
+          ],
+          "answer": 1,
+          "feedback": "Polite means kibar.",
+          "hint": "Think of please and thank you."
+        },
+        {
+          "prompt": "Which sentence is a present habit?",
+          "options": [
+            "He is working now.",
+            "He works on Mondays.",
+            "He worked yesterday.",
+            "He was working at six."
+          ],
+          "answer": 1,
+          "feedback": "On Mondays signals repetition.",
+          "hint": "Look for a repeated time."
+        },
+        {
+          "prompt": "Which sentence is happening now?",
+          "options": [
+            "They prepare every week.",
+            "They are preparing now.",
+            "They prepared yesterday.",
+            "They were preparing at five."
+          ],
+          "answer": 1,
+          "feedback": "Are preparing now is current continuous.",
+          "hint": "Look for now."
+        },
+        {
+          "prompt": "Does he ___ at home?",
+          "options": [
+            "works",
+            "work",
+            "working",
+            "worked"
+          ],
+          "answer": 1,
+          "feedback": "Use the base verb after does.",
+          "hint": "The helper carries person information."
+        },
+        {
+          "prompt": "He doesn't ___ on Sundays.",
+          "options": [
+            "works",
+            "work",
+            "working",
+            "worked"
+          ],
+          "answer": 1,
+          "feedback": "Use the base verb after doesn’t.",
+          "hint": "Remove -s from the main verb."
+        },
+        {
+          "prompt": "A process is something that ___.",
+          "options": [
+            "continues over time",
+            "is always an adjective",
+            "has no verb",
+            "must be rude"
+          ],
+          "answer": 0,
+          "feedback": "A process develops or continues through time.",
+          "hint": "Think of duration."
+        },
+        {
+          "prompt": "Best self-check before choosing a tense:",
+          "options": [
+            "Find the main verb and the time meaning.",
+            "Always add -ing.",
+            "Always use does.",
+            "Translate one word only."
+          ],
+          "answer": 0,
+          "feedback": "Verb type plus time meaning guides the choice.",
+          "hint": "Use the lesson’s decision method."
+        }
+      ]
+    },
+    {
+      "id": "day-3-like",
+      "shortTitle": "like / would like",
+      "focus": "Beğeni, istek ve benzerlik",
+      "title": "like, would like ve be like",
+      "intro": "Bugün üç farklı anlamı ayıracağız. Kısa örneklerle düşün ve cümlenin amacını bul.",
+      "remember": "Genel beğeni: like. Kibar istek: would like. Birinin nasıl olduğunu sormak/anlatmak: be like.",
+      "watchOut": "would like fiilden önce gelirse to gerekir: I would like to watch. like sonrasında verb-ing veya to + verb kullanılabilir.",
+      "rules": [
+        {
+          "title": "like",
+          "text": "Genel beğeni veya tercih anlatır.",
+          "examples": [
+            "I like chocolate.",
+            "I like reading.",
+            "I like to read before bed."
+          ]
+        },
+        {
+          "title": "would like",
+          "text": "Şu anki veya kibar bir isteği anlatır.",
+          "examples": [
+            "I would like some tea.",
+            "I would like to watch a film."
+          ]
+        },
+        {
+          "title": "be like",
+          "text": "Bir kişinin veya şeyin nasıl olduğunu sorar/anlatır.",
+          "examples": [
+            "What is your friend like?",
+            "She is kind and calm."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "prefer",
+          "tr": "tercih etmek",
+          "type": "verb",
+          "definition": "like one option more",
+          "example": "I prefer tea."
+        },
+        {
+          "en": "choice",
+          "tr": "seçim",
+          "type": "noun",
+          "definition": "a thing you choose",
+          "example": "That is a good choice."
+        },
+        {
+          "en": "kind",
+          "tr": "nazik",
+          "type": "adjective",
+          "definition": "friendly and helpful",
+          "example": "My friend is kind."
+        },
+        {
+          "en": "calm",
+          "tr": "sakin",
+          "type": "adjective",
+          "definition": "not worried or noisy",
+          "example": "He is calm."
+        },
+        {
+          "en": "invite",
+          "tr": "davet etmek",
+          "type": "verb",
+          "definition": "ask someone to come",
+          "example": "I invite my friend."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Genel olarak çikolatayı severim.",
+          "options": [
+            "I like chocolate.",
+            "I would like chocolate yesterday.",
+            "I am like chocolate."
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Kibarca çay istiyorum.",
+          "options": [
+            "I like tea.",
+            "I would like some tea.",
+            "I am tea."
+          ],
+          "answer": 1,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Bir film izlemek istiyorum.",
+          "options": [
+            "I would like watch a film.",
+            "I would like to watch a film.",
+            "I like to watching a film."
+          ],
+          "answer": 1,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Arkadaşın nasıl biri?",
+          "options": [
+            "What would your friend like?",
+            "What is your friend like?",
+            "What does your friend likes?"
+          ],
+          "answer": 1,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Correct form after like:",
+          "options": [
+            "I like reading.",
+            "I like read.",
+            "I am like reading."
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        }
+      ],
+      "reading": {
+        "title": "A Simple Friday Choice",
+        "paragraphs": [
+          "On Friday evening, Murat usually meets his friend Deniz. Murat likes quiet cafés, but Deniz prefers walking in the park. This week the weather is warm, so Murat says, “I would like to walk first and have tea later.” Deniz likes the idea.",
+          "Deniz is friendly and energetic, while Murat is calm and careful. They are different, but they enjoy spending time together. After the walk, Murat would like to try a new café. Deniz agrees because he likes discovering new places."
+        ],
+        "questions": [
+          {
+            "prompt": "What does Murat generally like?",
+            "options": [
+              "Quiet cafés",
+              "Busy stadiums",
+              "Cold weather"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          },
+          {
+            "prompt": "What would he like to do first?",
+            "options": [
+              "Walk",
+              "Sleep",
+              "Cook"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          },
+          {
+            "prompt": "What is Deniz like?",
+            "options": [
+              "Friendly and energetic",
+              "Angry and quiet",
+              "Tired and late"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO",
+        "title": "Likes and Favorites",
+        "resource": "A2 Natural English — Likes",
+        "instructions": "Ana fikri dinle; sonra insanların sevdiği şeyleri not et.",
+        "task": "like ve favourite ifadelerine odaklan.",
+        "followUp": "Kendin hakkında üç like cümlesi yaz.",
+        "url": "https://www.elllo.org/english/1551/1553-Natalie-Likes-Favorites.htm"
+      },
+      "test": [
+        {
+          "prompt": "1. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "2. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "3. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "4. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "5. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "6. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "7. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "8. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "9. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "10. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "11. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "12. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "13. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "14. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "15. like / would like / be like için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "like / would like / be like kuralına bak.",
+          "feedback": "Doğru seçim."
+        }
+      ]
+    },
+    {
+      "id": "day-4-possessive",
+      "shortTitle": "Possessive ’s",
+      "focus": "Aile bağları ve sahiplik",
+      "title": "Possessive ’s ile kime ait olduğunu söyle",
+      "intro": "Bir kişi veya canlıya ait şeyi anlatırken isimden sonra ’s kullanırız. Bu gün aynı zamanda önceki konuları kısa bir bağlamda karıştırır.",
+      "remember": "Tekil kişi + ’s + şey: Ayşe’s brother. Çoğul -s ile bitiyorsa yalnız apostrof: my parents’ house.",
+      "watchOut": "his/her ile ’s yapısını karıştırma: her brother = onun erkek kardeşi; Elif’s brother = Elif’in erkek kardeşi.",
+      "rules": [
+        {
+          "title": "Tekil isim + ’s",
+          "text": "Sahip olan kişi önce gelir.",
+          "examples": [
+            "My aunt’s son is my cousin.",
+            "Ali’s wife is a doctor."
+          ]
+        },
+        {
+          "title": "Aile ilişkileri",
+          "text": "Bir kişiden diğerine bağlantıyı sahiplik yapısıyla kur.",
+          "examples": [
+            "My sister’s daughter is my niece.",
+            "My brother’s son is my nephew."
+          ]
+        },
+        {
+          "title": "Karma tekrar",
+          "text": "like ve would like ile sahipliği aynı bağlamda kullan.",
+          "examples": [
+            "My cousin likes football.",
+            "My grandparents would like to visit us."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "cousin",
+          "tr": "kuzen",
+          "type": "noun",
+          "definition": "a child of your aunt or uncle",
+          "example": "My aunt’s son is my cousin."
+        },
+        {
+          "en": "nephew",
+          "tr": "erkek yeğen",
+          "type": "noun",
+          "definition": "a brother or sister’s son",
+          "example": "My sister’s son is my nephew."
+        },
+        {
+          "en": "niece",
+          "tr": "kız yeğen",
+          "type": "noun",
+          "definition": "a brother or sister’s daughter",
+          "example": "My brother’s daughter is my niece."
+        },
+        {
+          "en": "twin",
+          "tr": "ikiz",
+          "type": "noun",
+          "definition": "one of two children born together",
+          "example": "My uncle is a twin."
+        },
+        {
+          "en": "grandparents",
+          "tr": "büyükanne ve büyükbaba",
+          "type": "noun",
+          "definition": "parents of your mother or father",
+          "example": "My grandparents live nearby."
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Choose the correct form.",
+          "options": [
+            "Ali’s wife",
+            "Ali wife’s",
+            "Alis wife"
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "My sister’s son is my ___.",
+          "options": [
+            "nephew",
+            "uncle",
+            "husband"
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "My aunt’s daughter is my ___.",
+          "options": [
+            "cousin",
+            "niece",
+            "stepmother"
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Choose the polite wish.",
+          "options": [
+            "My parents would like to visit us.",
+            "My parents are like visit us.",
+            "My parents would like visit us."
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "Choose the general preference.",
+          "options": [
+            "My cousin likes football.",
+            "My cousin would football.",
+            "My cousin is like football."
+          ],
+          "answer": 0,
+          "hint": "Kuralı veya metni yeniden kontrol et.",
+          "feedback": "Doğru seçim."
+        }
+      ],
+      "reading": {
+        "title": "A Family Lunch",
+        "paragraphs": [
+          "Sefa’s cousin Emre usually organises a family lunch once a month. Emre’s wife likes cooking, and their twin children enjoy helping her. This Sunday, Sefa’s aunt and uncle would like to bring dessert. His grandparents prefer tea after lunch.",
+          "The family is large, so everyone has a small job. Emre’s niece prepares the table, and his nephew chooses the music. Sefa likes quiet music, but the children would like to hear something lively. In the end, they choose both and enjoy the afternoon together."
+        ],
+        "questions": [
+          {
+            "prompt": "Who organises the lunch?",
+            "options": [
+              "Emre",
+              "The nephew",
+              "The grandparents"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          },
+          {
+            "prompt": "Who likes cooking?",
+            "options": [
+              "Emre’s wife",
+              "Sefa’s uncle",
+              "The twins"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          },
+          {
+            "prompt": "What would the children like?",
+            "options": [
+              "Lively music",
+              "No music",
+              "A film"
+            ],
+            "answer": 0,
+            "hint": "Kuralı veya metni yeniden kontrol et.",
+            "feedback": "Doğru seçim."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO",
+        "title": "Possessives",
+        "resource": "A1 Grammar Conversation — Possessives",
+        "instructions": "Sahiplik ifadelerini dinle ve kişi-nesne ilişkilerini not et.",
+        "task": "’s, his ve her örneklerine odaklan.",
+        "followUp": "Kendi ailenden üç kişi için sahiplik cümlesi yaz.",
+        "url": "https://www.elllo.org/book/A1/A1-17-Possessives.html"
+      },
+      "test": [
+        {
+          "prompt": "1. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "2. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "3. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "4. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "5. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "6. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "7. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "8. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "9. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "10. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "11. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "12. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "13. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "like",
+            "would like",
+            "am like"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "14. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        },
+        {
+          "prompt": "15. possessive ’s and mixed review için doğru seçeneği seç.",
+          "options": [
+            "correct",
+            "not correct",
+            "maybe"
+          ],
+          "answer": 0,
+          "hint": "possessive ’s and mixed review kuralına bak.",
+          "feedback": "Doğru seçim."
+        }
+      ]
+    }
+  ]
+}
