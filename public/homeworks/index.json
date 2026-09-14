@@ -1,12 +1,11 @@
 {
-  "generatedAt": "2026-08-30T06:19:44.294Z",
+  "generatedAt": "2026-09-14T18:48:59.770Z",
   "lessons": [
     {
       "id": "2026-08-29-4A67D954",
       "date": "2026-08-29",
       "title": "Dört Günlük Aktif Plan",
       "subtitle": "İki kısa tekrar günü; like / would like / be like ve possessive ’s ile iki yeni gün.",
-      "meetingUuid": "4A67D954-33A2-4955-95F3-0321DC126900",
       "path": "2026-08-29-4A67D954/homework.json"
     },
     {
@@ -14,7 +13,6 @@
       "date": "2026-08-23",
       "title": "People, Routines & Actions in Progress",
       "subtitle": "Kişilik sıfatlarını dinle, present simple yapısını kur ve alışkanlıkları şu an devam eden eylemlerden ayır.",
-      "meetingUuid": "03578D40-CD94-49A5-9AC2-B2221D395008",
       "path": "2026-08-23-03578D40/homework.json"
     },
     {
@@ -22,7 +20,6 @@
       "date": "2026-08-16",
       "title": "Places, People & Clear Sentences",
       "subtitle": "Kişilik sıfatlarını tekrar et, yerleri tarif et ve in / on / at seçimini bağlamla öğren.",
-      "meetingUuid": "B9FE88C2-529A-4185-A54A-B5CF6B74A79E",
       "path": "2026-08-16-B9FE88C2/homework.json"
     }
   ]

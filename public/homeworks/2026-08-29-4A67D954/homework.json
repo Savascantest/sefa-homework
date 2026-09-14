@@ -1,17 +1,11 @@
 {
   "id": "2026-08-29-4A67D954",
-  "meetingUuid": "4A67D954-33A2-4955-95F3-0321DC126900",
   "date": "2026-08-29",
   "dateLabel": "29 Ağustos 2026",
   "student": "Sefa",
   "title": "Dört Günlük Aktif Plan",
   "subtitle": "İki kısa tekrar günü; like / would like / be like ve possessive ’s ile iki yeni gün.",
   "questionCount": 60,
-  "teacherNote": {
-    "detected": true,
-    "applied": true,
-    "summary": "Exactly four manageable days; two prior-topic mixed-review days; two new days; family vocabulary only on the possessive day."
-  },
   "days": [
     {
       "id": "day-1-review",
