@@ -6,10 +6,12 @@
   "scripts": {
     "homeworks:index": "node scripts/build-homework-index.mjs",
     "validate:privacy": "node scripts/validate-public-package-privacy.mjs",
+    "validate": "node scripts/validate-homeworks.mjs",
+    "test:architecture": "node --test tests/architecture-v1-package.test.mjs",
     "test:privacy": "node --test tests/public-package-privacy.test.mjs",
-    "test": "npm run test:privacy",
+    "test": "npm run test:privacy && npm run test:architecture",
     "dev": "npm run homeworks:index && vite",
-    "build": "npm run homeworks:index && npm run validate:privacy && vite build",
+    "build": "npm run homeworks:index && npm run validate && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
