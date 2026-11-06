@@ -114,7 +114,7 @@ test('privacy-safe identifiers, legitimate listening resources, and private-fiel
 test('historical packages remain valid without v1 metadata or answer-pattern repair', async () => {
   const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/homeworks');
   const entries = await readdir(root, { withFileTypes: true });
-  const packagePaths = entries.filter((entry) => entry.isDirectory()).map((entry) => path.join(root, entry.name, 'homework.json'));
+  const packagePaths = entries.filter((entry) => entry.isDirectory() && entry.name < SEFA_ARCHITECTURE_V1_EFFECTIVE_DATE).map((entry) => path.join(root, entry.name, 'homework.json'));
   assert.equal(packagePaths.length, 3);
   for (const packagePath of packagePaths) {
     const pkg = JSON.parse(await readFile(packagePath, 'utf8'));

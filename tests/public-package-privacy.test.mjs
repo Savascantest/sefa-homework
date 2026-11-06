@@ -48,7 +48,9 @@ test('repaired historical packages and the generated safe archive index pass', a
   const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../public/homeworks');
   const index = createPublicHomeworkIndex(root);
   assert.deepEqual(findPublicPackagePrivacyViolations(index), []);
-  assert.equal(index.lessons.length, 3);
+  for (const id of ['2026-08-16-B9FE88C2', '2026-08-23-03578D40', '2026-08-29-4A67D954']) {
+    assert.ok(index.lessons.some((lesson) => lesson.id === id), `missing historical package ${id}`);
+  }
   for (const lesson of index.lessons) {
     const packageData = JSON.parse(await readFile(path.join(root, lesson.path), 'utf8'));
     assert.deepEqual(findPublicPackagePrivacyViolations(packageData), []);

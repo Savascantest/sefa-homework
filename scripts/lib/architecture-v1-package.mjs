@@ -70,7 +70,7 @@ function addAnswerDistributionViolations(questions, label, violations) {
   }
 }
 
-function addDayViolations(day, index, violations) {
+function addDayViolations(day, index, violations, extendedVocabulary = false) {
   const path = `days[${index}]`;
   if (!day || typeof day !== 'object') {
     violations.push(`${path}: must be an object`);
@@ -81,7 +81,7 @@ function addDayViolations(day, index, violations) {
     if (day[field] === undefined || day[field] === null) violations.push(`${path}.${field}: required by the six-section Sefa contract`);
   }
   if (!Array.isArray(day.rules)) violations.push(`${path}.rules: must be an array`);
-  if (!Array.isArray(day.words) || day.words.length !== 5) violations.push(`${path}.words: must contain the five-word daily default`);
+  if (!Array.isArray(day.words) || (extendedVocabulary ? day.words.length < 10 || day.words.length > 15 : day.words.length !== 5)) violations.push(`${path}.words: must contain ${extendedVocabulary ? '10–15 review words' : 'the five-word daily default'}`);
   if (!day.reading || typeof day.reading !== 'object' || !Array.isArray(day.reading.paragraphs) || day.reading.paragraphs.length === 0) violations.push(`${path}.reading: must contain accessible reading content`);
   if (!day.listening || typeof day.listening !== 'object' || typeof day.listening.url !== 'string' || !day.listening.url.trim()) violations.push(`${path}.listening: must contain a public learner-facing resource`);
   if (!Array.isArray(day.test) || day.test.length !== SEFA_DAILY_TEST_QUESTION_COUNT) violations.push(`${path}.test: must contain the fifteen-question daily default`);
@@ -103,7 +103,7 @@ export function findSefaArchitectureV1Violations(pkg) {
     if (pkg[field] !== expected) violations.push(`${field}: must equal ${expected}`);
   }
   if (!Array.isArray(pkg.days) || pkg.days.length !== 4) violations.push('days: must contain exactly four days');
-  else pkg.days.forEach((day, index) => addDayViolations(day, index, violations));
+  else pkg.days.forEach((day, index) => addDayViolations(day, index, violations, pkg.extendedReviewVocabulary === true));
   return violations;
 }
 

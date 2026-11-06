@@ -1,0 +1,1617 @@
+{
+  "id": "2026-11-01-r4m7k2p9qx",
+  "date": "2026-11-01",
+  "dateLabel": "1 Kasım 2026",
+  "student": "Sefa",
+  "title": "Four-day review",
+  "subtitle": "Routines, actions in progress, preferences and family relationships in context.",
+  "questionCount": 60,
+  "policyVersion": "sefa-turkish-supported-a1-four-day@1",
+  "templateContractVersion": "sefa-four-day-six-section@1",
+  "assessmentPolicyVersion": "sefa-daily-mini-test-feedback@1",
+  "days": [
+    {
+      "id": "day-1",
+      "shortTitle": "Routines and right now",
+      "focus": "Habits and actions in progress",
+      "title": "Routines and right now",
+      "intro": "Usually points to a regular habit; now often points to an action in progress.",
+      "remember": "Usually points to a regular habit; now often points to an action in progress.",
+      "watchOut": "I am working doğru; I working eksiktir.",
+      "rules": [
+        {
+          "title": "Habits",
+          "text": "Usually, every day ve often ile genel alışkanlıkları anlatırız. He / she / it ile fiile genellikle -s eklenir.",
+          "examples": [
+            "I usually walk to work.",
+            "Mina drinks tea every day."
+          ]
+        },
+        {
+          "title": "Happening now",
+          "text": "Şu anda devam eden eylem için am / is / are + fiil-ing kullanırız.",
+          "examples": [
+            "Mina is drinking tea now.",
+            "They are working at the moment."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "usually",
+          "tr": "genellikle",
+          "definition": "most of the time",
+          "example": "I usually walk home.",
+          "exampleTr": "Genellikle eve yürüyerek giderim.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "often",
+          "tr": "sık sık",
+          "definition": "many times",
+          "example": "We often cook at home.",
+          "exampleTr": "Sık sık evde yemek yaparız.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "now",
+          "tr": "şimdi",
+          "definition": "at this time",
+          "example": "Ali is reading now.",
+          "exampleTr": "Ali şimdi okuyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "at the moment",
+          "tr": "şu anda",
+          "definition": "at the present time",
+          "example": "Mina is working at the moment.",
+          "exampleTr": "Mina şu anda çalışıyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "routine",
+          "tr": "rutin",
+          "definition": "things you do regularly",
+          "example": "My morning routine is simple.",
+          "exampleTr": "Sabah rutinim basittir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "every day",
+          "tr": "her gün",
+          "definition": "on each day",
+          "example": "We drink tea every day.",
+          "exampleTr": "Her gün çay içeriz.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "right now",
+          "tr": "tam şu anda",
+          "definition": "at this exact time",
+          "example": "I am studying right now.",
+          "exampleTr": "Tam şu anda ders çalışıyorum.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "walk",
+          "tr": "yürümek",
+          "definition": "to move on foot",
+          "example": "Mina walks to work.",
+          "exampleTr": "Mina işe yürüyerek gider.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "drive",
+          "tr": "araba sürmek",
+          "definition": "to operate a car",
+          "example": "Ali drives to work.",
+          "exampleTr": "Ali işe arabayla gider.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "today",
+          "tr": "bugün",
+          "definition": "on this day",
+          "example": "Today we are working at home.",
+          "exampleTr": "Bugün evde çalışıyoruz.",
+          "type": "vocabulary"
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "I usually ___ tea in the morning.",
+          "options": [
+            "drink",
+            "am drinking",
+            "drinks"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: drink",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Look! Ali ___ a book.",
+          "options": [
+            "reads",
+            "is reading",
+            "read"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is reading",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Mina ___ to work every day.",
+          "options": [
+            "walk",
+            "is walking",
+            "walks"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: walks",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "We ___ lunch at the moment.",
+          "options": [
+            "eat",
+            "are eating",
+            "eats"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: are eating",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        }
+      ],
+      "reading": {
+        "title": "A different morning",
+        "paragraphs": [
+          "Mina usually walks to work. She often drinks tea before work. Today she is taking the bus because it is raining. On the bus, she is reading a short story.",
+          "Mina enjoys the quiet walk because she can look at the trees. At work, she usually starts at nine and speaks with her colleagues.",
+          "After the bus journey, she meets her colleague Ali. He is waiting near the office. They go inside together and make a cup of tea."
+        ],
+        "questions": [
+          {
+            "prompt": "How does Mina usually go to work?",
+            "options": [
+              "She walks.",
+              "She takes the bus.",
+              "She drives."
+            ],
+            "answer": 0,
+            "feedback": "Doğru cevap: She walks.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "Why is she on the bus today?",
+            "options": [
+              "It is sunny.",
+              "It is raining.",
+              "Her car is new."
+            ],
+            "answer": 1,
+            "feedback": "Doğru cevap: It is raining.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "What is she doing on the bus?",
+            "options": [
+              "She is cooking.",
+              "She is sleeping.",
+              "She is reading."
+            ],
+            "answer": 2,
+            "feedback": "Doğru cevap: She is reading.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "Mina usually walks to work.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0,
+            "feedback": "Yes, the text says this.",
+            "hint": "The answer is in the reading."
+          },
+          {
+            "prompt": "Ali is waiting near the office.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0,
+            "feedback": "Yes, the text says this.",
+            "hint": "The answer is in the reading."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A1/A2",
+        "title": "Listening",
+        "resource": "Present Continuous",
+        "instructions": "Listen once for the main idea. A second listen can help you notice familiar language.",
+        "task": "Notice two expressions connected to today’s topic.",
+        "followUp": "Try using one expression in a sentence of your own.",
+        "url": "https://www.elllo.org/class/A2/A2-03-Present-Continuous.html"
+      },
+      "test": [
+        {
+          "prompt": "I usually ___ tea in the morning.",
+          "options": [
+            "drink",
+            "am drinking",
+            "drinks"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: drink",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Look! Ali ___ a book.",
+          "options": [
+            "reads",
+            "is reading",
+            "read"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is reading",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Mina ___ to work every day.",
+          "options": [
+            "walk",
+            "is walking",
+            "walks"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: walks",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "We ___ lunch at the moment.",
+          "options": [
+            "eat",
+            "are eating",
+            "eats"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: are eating",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "They often ___ at home.",
+          "options": [
+            "cook",
+            "are cooking",
+            "cooks"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: cook",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Right now I ___ the bus.",
+          "options": [
+            "take",
+            "takes",
+            "am taking"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: am taking",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Which phrase means at this time?",
+          "options": [
+            "at the moment",
+            "every Saturday",
+            "usually"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: at the moment",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "She ___ coffee every morning.",
+          "options": [
+            "drink",
+            "is drink",
+            "drinks"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: drinks",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Listen! The children ___.",
+          "options": [
+            "sing",
+            "are singing",
+            "sings"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: are singing",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "He usually ___ by car, but today he is walking.",
+          "options": [
+            "is travelling",
+            "travel",
+            "travels"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: travels",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I am learning English.",
+            "I learning English.",
+            "I am learn English."
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: I am learning English.",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "We ___ to music every evening.",
+          "options": [
+            "listens",
+            "listen",
+            "are listening"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: listen",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Today, they ___ from home as a temporary change.",
+          "options": [
+            "are working",
+            "works",
+            "work"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: are working",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "What ___ you doing now?",
+          "options": [
+            "do",
+            "is",
+            "are"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: are",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        },
+        {
+          "prompt": "Which sentence describes a habit?",
+          "options": [
+            "She is reading now.",
+            "She reads on Sundays.",
+            "She is reading at the moment."
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: She reads on Sundays.",
+          "hint": "Usually points to a regular habit; now often points to an action in progress."
+        }
+      ],
+      "englishPresentation": true
+    },
+    {
+      "id": "day-2",
+      "shortTitle": "Likes and frequency",
+      "focus": "Likes, wishes and frequency",
+      "title": "Likes and frequency",
+      "intro": "Once and twice describe frequency; like and would like express different kinds of preference.",
+      "remember": "Once and twice describe frequency; like and would like express different kinds of preference.",
+      "watchOut": "Would like sonrasında fiil gelirse to kullan: would like to go.",
+      "rules": [
+        {
+          "title": "How often?",
+          "text": "Once bir kez, twice iki kez; three times üç kez demektir.",
+          "examples": [
+            "I walk twice a week.",
+            "We meet once a month."
+          ]
+        },
+        {
+          "title": "Likes and wishes",
+          "text": "Like genel beğeniyi; would like belirli bir isteği anlatır.",
+          "examples": [
+            "I like tea.",
+            "I would like some tea."
+          ]
+        },
+        {
+          "title": "Describing someone",
+          "text": "What is she like? birinin nasıl biri olduğunu sorar.",
+          "examples": [
+            "What is Leyla like?",
+            "She is kind and calm."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "once",
+          "tr": "bir kez",
+          "definition": "one time",
+          "example": "I walk once a week.",
+          "exampleTr": "Haftada bir kez yürürüm.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "twice",
+          "tr": "iki kez",
+          "definition": "two times",
+          "example": "We meet twice a month.",
+          "exampleTr": "Ayda iki kez buluşuruz.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "kind",
+          "tr": "nazik",
+          "definition": "friendly and caring",
+          "example": "Leyla is kind.",
+          "exampleTr": "Leyla naziktir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "calm",
+          "tr": "sakin",
+          "definition": "relaxed and not nervous",
+          "example": "Omar is calm.",
+          "exampleTr": "Omar sakindir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "prefer",
+          "tr": "tercih etmek",
+          "definition": "to like one thing more",
+          "example": "I prefer tea.",
+          "exampleTr": "Çayı tercih ederim.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "like",
+          "tr": "sevmek / hoşlanmak",
+          "definition": "to enjoy something",
+          "example": "I like coffee.",
+          "exampleTr": "Kahveyi severim.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "would like",
+          "tr": "istemek",
+          "definition": "a polite way to express a wish",
+          "example": "I would like some water.",
+          "exampleTr": "Biraz su isterim.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "three times",
+          "tr": "üç kez",
+          "definition": "on three occasions",
+          "example": "I exercise three times a week.",
+          "exampleTr": "Haftada üç kez egzersiz yaparım.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "friendly",
+          "tr": "arkadaş canlısı",
+          "definition": "kind and pleasant to others",
+          "example": "Omar is friendly.",
+          "exampleTr": "Omar arkadaş canlısıdır.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "sometimes",
+          "tr": "bazen",
+          "definition": "on some occasions",
+          "example": "We sometimes walk together.",
+          "exampleTr": "Bazen birlikte yürürüz.",
+          "type": "vocabulary"
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Which phrase means two times every week?",
+          "options": [
+            "twice a week",
+            "once a week",
+            "two week"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: twice a week",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "I ___ coffee in general.",
+          "options": [
+            "would like to",
+            "like",
+            "am like"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: like",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "I ___ some water now, please.",
+          "options": [
+            "like to",
+            "am like",
+            "would like"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: would like",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "We meet ___ a month: one time.",
+          "options": [
+            "twice",
+            "once",
+            "three times"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: once",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        }
+      ],
+      "reading": {
+        "title": "A plan for Saturday",
+        "paragraphs": [
+          "Leyla likes walking. She walks in the park twice a week. Her friend Omar is calm and kind. This Saturday, Omar would like to visit a café after their walk. Leyla would like some tea.",
+          "Omar likes walking too, but he prefers quiet streets. He works near the park, so he often visits it after work. Leyla works from home and enjoys meeting a friend outside.",
+          "They usually talk about books and music. At the café, they choose a table near the window and plan their next walk."
+        ],
+        "questions": [
+          {
+            "prompt": "How often does Leyla walk in the park?",
+            "options": [
+              "Twice a week.",
+              "Once a month.",
+              "Every day."
+            ],
+            "answer": 0,
+            "feedback": "Doğru cevap: Twice a week.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "What is Omar like?",
+            "options": [
+              "Angry and rude.",
+              "Calm and kind.",
+              "Quiet and tired."
+            ],
+            "answer": 1,
+            "feedback": "Doğru cevap: Calm and kind.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "What would Leyla like?",
+            "options": [
+              "Some coffee.",
+              "A book.",
+              "Some tea."
+            ],
+            "answer": 2,
+            "feedback": "Doğru cevap: Some tea.",
+            "hint": "Zaman ifadesini ve cümlenin anlamını kontrol et."
+          },
+          {
+            "prompt": "Omar prefers quiet streets.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0,
+            "feedback": "Yes, the text says this.",
+            "hint": "The answer is in the reading."
+          },
+          {
+            "prompt": "Leyla works in an office near the park.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1,
+            "feedback": "The text says something different.",
+            "hint": "The answer is in the reading."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A1/A2",
+        "title": "Listening",
+        "resource": "Likes and Favorites",
+        "instructions": "Listen once for the main idea. A second listen can help you notice familiar language.",
+        "task": "Notice two expressions connected to today’s topic.",
+        "followUp": "Try using one expression in a sentence of your own.",
+        "url": "https://www.elllo.org/english/1551/1553-Natalie-Likes-Favorites.htm"
+      },
+      "test": [
+        {
+          "prompt": "Which phrase means two times every week?",
+          "options": [
+            "twice a week",
+            "once a week",
+            "two week"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: twice a week",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "I ___ coffee in general.",
+          "options": [
+            "would like to",
+            "like",
+            "am like"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: like",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "I ___ some water now, please.",
+          "options": [
+            "like to",
+            "am like",
+            "would like"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: would like",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "We meet ___ a month: one time.",
+          "options": [
+            "twice",
+            "once",
+            "three times"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: once",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "She goes swimming three ___ a week.",
+          "options": [
+            "times",
+            "time",
+            "weeks"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: times",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "What is Omar like?",
+          "options": [
+            "He likes tea.",
+            "He would like tea.",
+            "He is kind."
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: He is kind.",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "They would like ___ the park.",
+          "options": [
+            "to visit",
+            "visit",
+            "visiting to"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: to visit",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Which sentence gives a general preference?",
+          "options": [
+            "I would like an apple now.",
+            "I am eating an apple now.",
+            "I like apples."
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: I like apples.",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Which is a polite request?",
+          "options": [
+            "I am like tea, please.",
+            "I would like tea, please.",
+            "I would tea, please."
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: I would like tea, please.",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Three times a week means ___.",
+          "options": [
+            "on three occasions each month",
+            "on one occasion each week",
+            "on three occasions each week"
+          ],
+          "answer": 2,
+          "feedback": "Three times a week means on three occasions each week.",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "He ___ reading in the evening.",
+          "options": [
+            "likes",
+            "like",
+            "would likes"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: likes",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Would you like ___ sit down?",
+          "options": [
+            "for",
+            "to",
+            "at"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: to",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "What does Leyla like?",
+          "options": [
+            "She likes walking.",
+            "She is friendly.",
+            "She is calm."
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: She likes walking.",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Twice means ___.",
+          "options": [
+            "one time",
+            "three times",
+            "two times"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: two times",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        },
+        {
+          "prompt": "Which word means relaxed and not nervous?",
+          "options": [
+            "kind",
+            "calm",
+            "often"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: calm",
+          "hint": "Once and twice describe frequency; like and would like express different kinds of preference."
+        }
+      ],
+      "englishPresentation": true
+    },
+    {
+      "id": "day-3",
+      "shortTitle": "Family and possession",
+      "focus": "Family words and possessives",
+      "title": "Family and possession",
+      "intro": "The person before ’s is connected to the person or thing after it.",
+      "remember": "The person before ’s is connected to the person or thing after it.",
+      "watchOut": "She’s working = She is working; Maya’s book = Maya’nın kitabı.",
+      "rules": [
+        {
+          "title": "Possession",
+          "text": "Sahip olan kişi önce gelir: Deniz’s book.",
+          "examples": [
+            "Deniz’s book is here.",
+            "My sister’s son is my nephew."
+          ]
+        },
+        {
+          "title": "Family relationships",
+          "text": "Aunt, uncle, cousin, niece ve nephew aile ilişkilerini anlatır.",
+          "examples": [
+            "My aunt’s daughter is my cousin.",
+            "My brother’s daughter is my niece."
+          ]
+        },
+        {
+          "title": "Things",
+          "text": "Nesnelerle of yapısı yaygındır.",
+          "examples": [
+            "the price of the book",
+            "the button of the laptop"
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "aunt",
+          "tr": "teyze / hala",
+          "definition": "the sister of a parent",
+          "example": "My aunt lives nearby.",
+          "exampleTr": "Teyzem yakınlarda yaşıyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "uncle",
+          "tr": "amca / dayı",
+          "definition": "the brother of a parent",
+          "example": "My uncle likes music.",
+          "exampleTr": "Amcam müziği sever.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "cousin",
+          "tr": "kuzen",
+          "definition": "the child of an aunt or uncle",
+          "example": "My cousin is kind.",
+          "exampleTr": "Kuzenim naziktir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "niece",
+          "tr": "kız yeğen",
+          "definition": "a brother or sister’s daughter",
+          "example": "My sister’s daughter is my niece.",
+          "exampleTr": "Kız kardeşimin kızı benim kız yeğenimdir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "nephew",
+          "tr": "erkek yeğen",
+          "definition": "a brother or sister’s son",
+          "example": "My brother’s son is my nephew.",
+          "exampleTr": "Erkek kardeşimin oğlu benim erkek yeğenimdir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "daughter",
+          "tr": "kız evlat",
+          "definition": "a female child",
+          "example": "Their daughter is a teacher.",
+          "exampleTr": "Kızları öğretmendir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "son",
+          "tr": "erkek evlat",
+          "definition": "a male child",
+          "example": "Their son likes music.",
+          "exampleTr": "Oğulları müziği sever.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "grandparents",
+          "tr": "büyükanne ve büyükbaba",
+          "definition": "the parents of your parents",
+          "example": "My grandparents live nearby.",
+          "exampleTr": "Büyükanne ve büyükbabam yakınlarda yaşıyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "shoulder",
+          "tr": "omuz",
+          "definition": "the part between your neck and arm",
+          "example": "My shoulder hurts.",
+          "exampleTr": "Omzum ağrıyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "family",
+          "tr": "aile",
+          "definition": "people related to one another",
+          "example": "Her family is small.",
+          "exampleTr": "Onun ailesi küçük.",
+          "type": "vocabulary"
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "My sister’s son is my ___.",
+          "options": [
+            "nephew",
+            "niece",
+            "aunt"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: nephew",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My brother’s daughter is my ___.",
+          "options": [
+            "nephew",
+            "niece",
+            "uncle"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: niece",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My aunt’s daughter is my ___.",
+          "options": [
+            "aunt",
+            "grandfather",
+            "cousin"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: cousin",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Choose the correct possessive.",
+          "options": [
+            "Deniz book’s",
+            "Deniz’s book",
+            "Denizs book"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: Deniz’s book",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        }
+      ],
+      "reading": {
+        "title": "A family afternoon",
+        "paragraphs": [
+          "Deniz usually visits her aunt twice a month. Her aunt’s son, Can, is Deniz’s cousin. Can is calm and friendly, and he likes gardening. His daughter Ece enjoys looking at the flowers in the garden.",
+          "Today Deniz is taking the bus to her aunt’s house. She is bringing a book for Ece. Her uncle is making tea, and her aunt is preparing a small cake. Can and Ece are working in the garden.",
+          "After tea, the family would like to look at old photographs. Deniz’s aunt tells a funny story about her childhood, and everyone laughs. Deniz enjoys these afternoons because the family spends time together."
+        ],
+        "questions": [
+          {
+            "prompt": "Who is Can?",
+            "options": [
+              "Deniz’s cousin",
+              "Deniz’s uncle",
+              "Deniz’s brother"
+            ],
+            "answer": 0,
+            "feedback": "Can is Deniz’s cousin.",
+            "hint": "Look at the first paragraph."
+          },
+          {
+            "prompt": "What is Deniz bringing for Ece?",
+            "options": [
+              "A book",
+              "A cake",
+              "Flowers"
+            ],
+            "answer": 0,
+            "feedback": "Deniz is bringing a book.",
+            "hint": "Look at the second paragraph."
+          },
+          {
+            "prompt": "Who is making tea?",
+            "options": [
+              "Her uncle",
+              "Can",
+              "Ece"
+            ],
+            "answer": 0,
+            "feedback": "Her uncle is making tea.",
+            "hint": "Look at the second paragraph."
+          },
+          {
+            "prompt": "Can likes gardening.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0,
+            "feedback": "The first paragraph says that Can likes gardening.",
+            "hint": "Look at the first paragraph."
+          },
+          {
+            "prompt": "Deniz visits her aunt every day.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1,
+            "feedback": "She usually visits twice a month.",
+            "hint": "Look at how often she visits."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A1/A2",
+        "title": "Listening",
+        "resource": "Possessives",
+        "instructions": "Listen once for the main idea. A second listen can help you notice familiar language.",
+        "task": "Notice two expressions connected to today’s topic.",
+        "followUp": "Try using one expression in a sentence of your own.",
+        "url": "https://www.elllo.org/book/A1/A1-17-Possessives.html"
+      },
+      "test": [
+        {
+          "prompt": "My sister’s son is my ___.",
+          "options": [
+            "nephew",
+            "niece",
+            "aunt"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: nephew",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My brother’s daughter is my ___.",
+          "options": [
+            "nephew",
+            "niece",
+            "uncle"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: niece",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My aunt’s daughter is my ___.",
+          "options": [
+            "aunt",
+            "grandfather",
+            "cousin"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: cousin",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Choose the correct possessive.",
+          "options": [
+            "Deniz book’s",
+            "Deniz’s book",
+            "Denizs book"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: Deniz’s book",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Ali’s sister means ___.",
+          "options": [
+            "the sister of Ali",
+            "the brother of Ali",
+            "the book of Ali"
+          ],
+          "answer": 0,
+          "feedback": "Ali’s sister is the sister of Ali.",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My mother’s brother is my ___.",
+          "options": [
+            "niece",
+            "daughter",
+            "uncle"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: uncle",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My father’s sister is my ___.",
+          "options": [
+            "aunt",
+            "nephew",
+            "son"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: aunt",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "The book has a price: the ___ of the book.",
+          "options": [
+            "cousin",
+            "uncle",
+            "price"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: price",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Which word means a sister’s daughter?",
+          "options": [
+            "nephew",
+            "niece",
+            "cousin"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: niece",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Which word means a brother’s son?",
+          "options": [
+            "niece",
+            "aunt",
+            "nephew"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: nephew",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "Maya’s bag is here. Whose bag?",
+          "options": [
+            "Maya’s",
+            "Deniz’s",
+            "Ali’s"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: Maya’s",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "She’s working means ___.",
+          "options": [
+            "Her work.",
+            "She is working.",
+            "She has a book."
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: She is working.",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "The parents share a house: the ___.",
+          "options": [
+            "parents’ house",
+            "parent’s houses",
+            "parents house’s"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: parents’ house",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "My uncle’s son is my ___.",
+          "options": [
+            "uncle",
+            "niece",
+            "cousin"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: cousin",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        },
+        {
+          "prompt": "A laptop has a button: the button ___ the laptop.",
+          "options": [
+            "at",
+            "of",
+            "to"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: of",
+          "hint": "The person before ’s is connected to the person or thing after it."
+        }
+      ],
+      "englishPresentation": true
+    },
+    {
+      "id": "day-4",
+      "shortTitle": "Everyday review",
+      "focus": "Putting familiar language together",
+      "title": "Everyday review",
+      "intro": "A time phrase and the wider context can help you choose.",
+      "remember": "A time phrase and the wider context can help you choose.",
+      "watchOut": "Never zaten olumsuz anlam taşır: I never drive.",
+      "rules": [
+        {
+          "title": "Habits and now",
+          "text": "Usually genel alışkanlığa, right now şu andaki eyleme işaret eder.",
+          "examples": [
+            "I usually walk, but I am taking the bus now."
+          ]
+        },
+        {
+          "title": "Likes and wishes",
+          "text": "Like genel beğeni, would like belirli bir istektir.",
+          "examples": [
+            "I like tea. I would like tea now."
+          ]
+        },
+        {
+          "title": "Possession",
+          "text": "Kişiye ait bir şeyi ’s ile anlatabilirsin.",
+          "examples": [
+            "Nora’s cousin is kind."
+          ]
+        }
+      ],
+      "words": [
+        {
+          "en": "never",
+          "tr": "asla / hiç",
+          "definition": "not at any time",
+          "example": "I never drive to work.",
+          "exampleTr": "İşe hiç arabayla gitmem.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "today",
+          "tr": "bugün",
+          "definition": "on this day",
+          "example": "Today I am taking the bus.",
+          "exampleTr": "Bugün otobüse biniyorum.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "usually",
+          "tr": "genellikle",
+          "definition": "most of the time",
+          "example": "I usually walk.",
+          "exampleTr": "Genellikle yürürüm.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "cousin",
+          "tr": "kuzen",
+          "definition": "the child of an aunt or uncle",
+          "example": "My cousin is kind.",
+          "exampleTr": "Kuzenim naziktir.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "would like",
+          "tr": "istemek",
+          "definition": "a polite way to express a wish",
+          "example": "I would like tea.",
+          "exampleTr": "Çay isterim.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "once",
+          "tr": "bir kez",
+          "definition": "one time",
+          "example": "We meet once a month.",
+          "exampleTr": "Ayda bir kez buluşuruz.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "twice",
+          "tr": "iki kez",
+          "definition": "two times",
+          "example": "Nora visits twice a month.",
+          "exampleTr": "Nora ayda iki kez ziyarete gider.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "friendly",
+          "tr": "arkadaş canlısı",
+          "definition": "kind and pleasant to others",
+          "example": "Sami is friendly.",
+          "exampleTr": "Sami arkadaş canlısıdır.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "at the moment",
+          "tr": "şu anda",
+          "definition": "at the present time",
+          "example": "Sami is making tea at the moment.",
+          "exampleTr": "Sami şu anda çay yapıyor.",
+          "type": "vocabulary"
+        },
+        {
+          "en": "niece",
+          "tr": "kız yeğen",
+          "definition": "a brother or sister’s daughter",
+          "example": "My niece likes books.",
+          "exampleTr": "Kız yeğenim kitapları sever.",
+          "type": "vocabulary"
+        }
+      ],
+      "practice": [
+        {
+          "prompt": "Nora usually ___ home.",
+          "options": [
+            "walks",
+            "is walking",
+            "walk"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: walks",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Today Nora ___ the bus.",
+          "options": [
+            "takes",
+            "is taking",
+            "take"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is taking",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "She visits Sami two times a month: ___.",
+          "options": [
+            "once a month",
+            "twice a week",
+            "twice a month"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: twice a month",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Sami is friendly. What ___ he like?",
+          "options": [
+            "does",
+            "is",
+            "would"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is",
+          "hint": "A time phrase and the wider context can help you choose."
+        }
+      ],
+      "reading": {
+        "title": "A different Friday",
+        "paragraphs": [
+          "Nora usually walks home after work. On Fridays, she often visits her cousin Sami. They meet twice a month, and they like talking about books and music. Sami is friendly and calm, and his sister Lina is very kind.",
+          "Today is different. It is raining, so Nora is taking the bus to Sami’s house. She is carrying a new book for him. At home, Sami is making dinner, and Lina is preparing a salad.",
+          "After dinner, Nora would like a cup of tea. Sami usually drinks coffee, but tonight he would like tea too. They sit by the window and make a plan to walk in the park on Sunday if the weather is good."
+        ],
+        "questions": [
+          {
+            "prompt": "How often do Nora and Sami meet?",
+            "options": [
+              "Twice a month",
+              "Every day",
+              "Once a year"
+            ],
+            "answer": 0,
+            "feedback": "They meet twice a month.",
+            "hint": "Look for the frequency phrase."
+          },
+          {
+            "prompt": "Why is Nora taking the bus today?",
+            "options": [
+              "Because it is raining",
+              "Because she likes driving",
+              "Because the park is closed"
+            ],
+            "answer": 0,
+            "feedback": "She is taking the bus because it is raining.",
+            "hint": "Look at the second paragraph."
+          },
+          {
+            "prompt": "What would Nora like after dinner?",
+            "options": [
+              "A cup of tea",
+              "A cup of coffee",
+              "A new book"
+            ],
+            "answer": 0,
+            "feedback": "Nora would like a cup of tea.",
+            "hint": "Look at the final paragraph."
+          },
+          {
+            "prompt": "Lina is preparing a salad.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 0,
+            "feedback": "Lina is preparing a salad.",
+            "hint": "Look at what Lina is doing."
+          },
+          {
+            "prompt": "Sami usually drinks tea.",
+            "options": [
+              "True",
+              "False"
+            ],
+            "answer": 1,
+            "feedback": "Sami usually drinks coffee.",
+            "hint": "Look at Sami’s usual drink."
+          }
+        ]
+      },
+      "listening": {
+        "source": "ELLLO · A1/A2",
+        "title": "Listening",
+        "resource": "Present Continuous",
+        "instructions": "Listen once for the main idea. A second listen can help you notice familiar language.",
+        "task": "Notice two expressions connected to today’s topic.",
+        "followUp": "Try using one expression in a sentence of your own.",
+        "url": "https://www.elllo.org/class/A2/A2-03-Present-Continuous.html"
+      },
+      "test": [
+        {
+          "prompt": "Nora usually ___ home.",
+          "options": [
+            "walks",
+            "is walking",
+            "walk"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: walks",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Today Nora ___ the bus.",
+          "options": [
+            "takes",
+            "is taking",
+            "take"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is taking",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "She visits Sami two times a month: ___.",
+          "options": [
+            "once a month",
+            "twice a week",
+            "twice a month"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: twice a month",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Sami is friendly. What ___ he like?",
+          "options": [
+            "does",
+            "is",
+            "would"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: is",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Sami ___ tea in general.",
+          "options": [
+            "likes",
+            "is like",
+            "would likes"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: likes",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Nora ___ some tea now, please.",
+          "options": [
+            "is like",
+            "likes to",
+            "would like"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: would like",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Sami’s house is ___.",
+          "options": [
+            "the house belonging to Sami",
+            "Sami is a house",
+            "a house belonging to Nora"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: the house belonging to Sami",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "I ___ drive to work: not at any time.",
+          "options": [
+            "twice",
+            "now",
+            "never"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: never",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I don’t never drive.",
+            "I never drive.",
+            "I never drives."
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: I never drive.",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "My aunt’s son is my ___.",
+          "options": [
+            "nephew",
+            "uncle",
+            "cousin"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: cousin",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Look! Sami ___ tea.",
+          "options": [
+            "is making",
+            "makes",
+            "make"
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: is making",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "We ___ our aunt once a month.",
+          "options": [
+            "are visiting",
+            "visit",
+            "visits"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: visit",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "What is Sami like?",
+          "options": [
+            "He is calm.",
+            "He likes tea.",
+            "He would like tea."
+          ],
+          "answer": 0,
+          "feedback": "A useful answer here is: He is calm.",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "Nora would like ___ her cousin.",
+          "options": [
+            "visit",
+            "visits",
+            "to visit"
+          ],
+          "answer": 2,
+          "feedback": "A useful answer here is: to visit",
+          "hint": "A time phrase and the wider context can help you choose."
+        },
+        {
+          "prompt": "My sister’s daughter is my ___.",
+          "options": [
+            "nephew",
+            "niece",
+            "uncle"
+          ],
+          "answer": 1,
+          "feedback": "A useful answer here is: niece",
+          "hint": "A time phrase and the wider context can help you choose."
+        }
+      ],
+      "englishPresentation": true
+    }
+  ],
+  "englishPresentation": true,
+  "extendedReviewVocabulary": true
+}

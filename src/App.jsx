@@ -33,30 +33,31 @@ function ProgressRing({ value }) {
   return <div className="progress-ring" style={{ '--progress': `${value * 3.6}deg` }}><span>{value}%</span></div>;
 }
 
-function DayPicker({ days, active, onPick, progress }) {
+function DayPicker({ days, active, onPick, progress, english }) {
   return <section className="day-picker" aria-label="Dört günlük çalışma planı">
-    <div className="day-heading"><div><span className="eyebrow">Aktif çalışma planı</span><h2>Dört gün, dört kısa odak</h2></div><p>Her gün yaklaşık 20–30 dakika</p></div>
+    <div className="day-heading"><div><span className="eyebrow">{english ? 'Your review plan' : 'Aktif çalışma planı'}</span><h2>{english ? 'Four days of review' : 'Dört gün, dört kısa odak'}</h2></div><p>{english ? 'Take each section at your own pace' : 'Her gün yaklaşık 20–30 dakika'}</p></div>
     <div className="day-grid">{days.map((day, index) => {
       const complete = sections.every(([id]) => progress.done?.[`${day.id}:${id}`]);
       return <button key={day.id} className={active.id === day.id ? 'active' : ''} onClick={() => onPick(day)} aria-pressed={active.id === day.id}>
         <span className="day-number">{complete ? <Check size={20}/> : index + 1}</span>
-        <span><small>GÜN {index + 1}</small><strong>{day.shortTitle}</strong><em>{day.focus}</em></span>
+        <span><small>{english ? 'DAY' : 'GÜN'} {index + 1}</small><strong>{day.shortTitle}</strong><em>{day.focus}</em></span>
         <ChevronRight size={19}/>
       </button>;
     })}</div>
   </section>;
 }
 
-function Notes({ day }) {
-  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Önce mantığı gör</span><h2>{day.title}</h2><p>{day.intro}</p></header>
+function Notes({ day, english }) {
+  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">{english ? 'A closer look' : 'Önce mantığı gör'}</span><h2>{day.title}</h2><p>{day.intro}</p></header>
     <div className="rule-grid">{day.rules.map((rule) => <article className="rule" key={rule.title}><span className="rule-icon"><Lightbulb size={19}/></span><div><h3>{rule.title}</h3><p>{rule.text}</p><div className="examples">{rule.examples.map((x) => <code key={x}>{x}</code>)}</div></div></article>)}</div>
-    <aside className="remember"><Target size={21}/><div><strong>Hatırla</strong><p>{day.remember}</p></div></aside>
-    <aside className="watch"><TriangleAlert size={21}/><div><strong>Dikkat</strong><p>{day.watchOut}</p></div></aside>
+    <aside className="remember"><Target size={21}/><div><strong>{english ? 'A helpful hint' : 'Hatırla'}</strong><p>{day.remember}</p></div></aside>
+    <aside className="watch"><TriangleAlert size={21}/><div><strong>{english ? 'Worth noticing' : 'Dikkat'}</strong><p>{day.watchOut}</p></div></aside>
   </section>;
 }
 
-function Words({ day, progress, update }) {
+function Words({ day, progress, update, english }) {
   const [revealed, setRevealed] = useState({});
+  if (english) return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Words in context</span><h2>Vocabulary</h2><p>Explore each word, then turn the card for its Turkish translation.</p></header><div className="word-grid">{day.words.map((word, index) => <article className="word-card" key={word.en}><div className="word-top"><span>{String(index + 1).padStart(2, '0')}</span><small>{revealed[word.en] ? 'Türkçe' : 'English'}</small></div><h3>{revealed[word.en] ? word.tr : word.en}</h3>{!revealed[word.en] && <p>{word.definition}</p>}<blockquote>{revealed[word.en] ? word.exampleTr : word.example}</blockquote><button className="text-action" aria-pressed={!!revealed[word.en]} onClick={() => setRevealed((v) => ({...v,[word.en]: !v[word.en]}))}>{revealed[word.en] ? 'Show English' : 'Show Turkish'}</button><label>Your sentence<input value={progress.examples?.[`${day.id}:${word.en}`] || ''} onChange={(e) => update((p) => ({ ...p, examples: { ...p.examples, [`${day.id}:${word.en}`]: e.target.value } }))} placeholder="I ..." /></label></article>)}</div></section>;
   return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Günlük beş kelime</span><h2>Kelime rutini</h2><p>Önce Türkçe anlamı görüp İngilizcesini söyle. Sonra kartı aç ve kendinle ilgili bir cümle yaz.</p></header>
     <div className="word-grid">{day.words.map((word, index) => <article className="word-card" key={word.en}>
       <div className="word-top"><span>{String(index + 1).padStart(2, '0')}</span><small>{word.type}</small></div>
@@ -67,40 +68,41 @@ function Words({ day, progress, update }) {
   </section>;
 }
 
-function Question({ question, id, saved, onAnswer }) {
+function Question({ question, id, saved, onAnswer, english }) {
   const selected = saved?.choice;
   const checked = selected !== undefined;
   const correct = selected === question.answer;
   return <article className="question"><div className="question-number">{id + 1}</div><div className="question-body"><h3>{question.prompt}</h3>
     <div className="options">{question.options.map((option, index) => <button key={option} disabled={checked} className={checked ? index === question.answer ? 'correct' : index === selected ? 'wrong' : '' : ''} onClick={() => onAnswer(index)}><span>{String.fromCharCode(65 + index)}</span>{option}</button>)}</div>
-    {checked && <div className={`feedback ${correct ? 'good' : 'try'}`}><strong>{correct ? 'Doğru.' : 'Tekrar düşün.'}</strong><p>{correct ? question.feedback : question.hint}</p></div>}
+    {checked && <div className={`feedback ${correct ? 'good' : 'try'}`}><strong>{english ? (correct ? 'That’s right.' : 'Take another look.') : (correct ? 'Doğru.' : 'Tekrar düşün.')}</strong><p>{correct ? question.feedback : question.hint}</p></div>}
   </div></article>;
 }
 
 function Questions({ items, day, section, progress, update }) {
   return <div className="question-list">{items.map((q, index) => {
     const key = `${day.id}:${section}:${index}`;
-    return <Question key={key} question={q} id={index} saved={progress.answers?.[key]} onAnswer={(choice) => update((p) => ({ ...p, answers: { ...p.answers, [key]: { choice } } }))}/>;
+    return <Question key={key} question={q} id={index} saved={progress.answers?.[key]} english={day.englishPresentation} onAnswer={(choice) => update((p) => ({ ...p, answers: { ...p.answers, [key]: { choice } } }))}/>;
   })}</div>;
 }
 
-function Practice({ day, progress, update }) {
-  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Kontrollü pratik</span><h2>Cümleyi doğru kur</h2><p>Her sorudan sonra açıklamayı oku. İpucu cevabı söylemez; hangi kurala bakacağını gösterir.</p></header><Questions items={day.practice} day={day} section="practice" progress={progress} update={update}/></section>;
+function Practice({ day, progress, update, english }) {
+  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">{english ? 'A little practice' : 'Kontrollü pratik'}</span><h2>{english ? 'You are making progress' : 'Cümleyi doğru kur'}</h2><p>{english ? 'Try each question. The feedback is here to help you notice patterns.' : 'Her sorudan sonra açıklamayı oku. İpucu cevabı söylemez; hangi kurala bakacağını gösterir.'}</p></header><Questions items={day.practice} day={day} section="practice" progress={progress} update={update}/></section>;
 }
 
-function Reading({ day, progress, update }) {
-  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Bağlam içinde</span><h2>{day.reading.title}</h2></header><article className="reading-text">{day.reading.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</article><h3 className="subheading">Metni kontrol et</h3><Questions items={day.reading.questions} day={day} section="reading" progress={progress} update={update}/></section>;
+function Reading({ day, progress, update, english }) {
+  if (english && day.readings) return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Reading in context</span><h2>Three short readings</h2><p>Read at your own pace, then try the questions.</p></header>{day.readings.map((reading, i) => <div key={reading.title}><h3>{reading.title}</h3><article className="reading-text">{reading.paragraphs.map((p, j) => <p key={j}>{p}</p>)}</article><Questions items={reading.questions} day={day} section={`reading-${i}`} progress={progress} update={update}/></div>)}</section>;
+  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">{english ? 'Reading in context' : 'Bağlam içinde'}</span><h2>{day.reading.title}</h2></header><article className="reading-text">{day.reading.paragraphs.map((p, i) => <p key={i}>{p}</p>)}</article><h3 className="subheading">{english ? 'Reading questions' : 'Metni kontrol et'}</h3><Questions items={day.reading.questions} day={day} section="reading" progress={progress} update={update}/></section>;
 }
 
-function Listening({ day }) {
-  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Dış kaynak</span><h2>{day.listening.title}</h2><p>{day.listening.instructions}</p></header><article className="listening-panel"><Headphones size={34}/><div><span>{day.listening.source}</span><h3>{day.listening.resource}</h3><p>{day.listening.task}</p></div><a href={day.listening.url} target="_blank" rel="noreferrer">Dinlemeyi aç <ExternalLink size={17}/></a></article><aside className="remember"><NotebookPen size={21}/><div><strong>Dinledikten sonra</strong><p>{day.listening.followUp}</p></div></aside></section>;
+function Listening({ day, english }) {
+  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">{english ? 'Listening in context' : 'Dış kaynak'}</span><h2>{day.listening.title}</h2><p>{day.listening.instructions}</p></header><article className="listening-panel"><Headphones size={34}/><div><span>{day.listening.source}</span><h3>{day.listening.resource}</h3><p>{day.listening.task}</p></div><a href={day.listening.url} target="_blank" rel="noreferrer">{english ? 'Open listening' : 'Dinlemeyi aç'} <ExternalLink size={17}/></a></article><aside className="remember"><NotebookPen size={21}/><div><strong>{english ? 'After listening' : 'Dinledikten sonra'}</strong><p>{day.listening.followUp}</p></div></aside></section>;
 }
 
-function Test({ day, progress, update }) {
+function Test({ day, progress, update, english }) {
   const answers = day.test.map((_, i) => progress.answers?.[`${day.id}:test:${i}`]);
   const answered = answers.filter(Boolean).length;
   const hits = answers.filter((x, i) => x?.choice === day.test[i].answer).length;
-  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">Günün kontrolü</span><h2>15 soruluk mini test</h2><p>{answered === day.test.length ? `${hits} / ${day.test.length} doğru. Yanlışların açıklamalarını tekrar incele.` : `${answered} / ${day.test.length} cevaplandı.`}</p></header><Questions items={day.test} day={day} section="test" progress={progress} update={update}/>{answered === day.test.length && <div className="result"><Trophy size={38}/><div><strong>{hits >= 12 ? 'Bu gün tamam!' : 'Bir tekrar daha iyi olur.'}</strong><span>{hits} / {day.test.length}</span></div></div>}</section>;
+  return <section className="content-stack"><header className="section-intro"><span className="section-kicker">{english ? 'A chance to review' : 'Günün kontrolü'}</span><h2>{english ? '15-question mini test' : '15 soruluk mini test'}</h2><p>{answered === day.test.length ? `${hits} / ${day.test.length} correct. ${english ? 'Use the feedback to guide your review.' : 'Yanlışların açıklamalarını tekrar incele.'}` : `${answered} / ${day.test.length} ${english ? 'answered' : 'cevaplandı'}.`}</p></header><Questions items={day.test} day={day} section="test" progress={progress} update={update}/>{answered === day.test.length && <div className="result"><Trophy size={38}/><div><strong>{english ? (hits >= 12 ? 'A strong review—keep exploring.' : 'A little more review may help.') : (hits >= 12 ? 'Bu gün tamam!' : 'Bir tekrar daha iyi olur.')}</strong><span>{hits} / {day.test.length}</span></div></div>}</section>;
 }
 
 function ArchivePicker({ lessons, activeId, onPick }) {
@@ -124,9 +126,9 @@ export default function App() {
   const View = { notes: Notes, words: Words, practice: Practice, reading: Reading, listening: Listening, test: Test }[tab];
   return <div className="app-shell"><header className="topbar"><div className="brand"><span><MapPin size={23}/></span><div><h1>Sefa's English Practice</h1><p>A1 · Günlük tekrar planı</p></div></div><div className="overall"><div><span>Haftalık ilerleme</span><strong>{completed} / {hw.days.length * sections.length} bölüm</strong></div><ProgressRing value={percent}/></div></header>
     <main><section className="lesson-head"><div><span className="eyebrow">{hw.dateLabel} · En yeni ödev</span><h2>{hw.title}</h2><p>{hw.subtitle}</p></div><div className="lesson-meta"><span><Target size={17}/> 4 gün</span><span><CircleHelp size={17}/> {hw.questionCount} soru</span></div></section>
-      <ArchivePicker lessons={index.lessons} activeId={hw.id} onPick={load}/><DayPicker days={hw.days} active={day} onPick={(next) => { setDayId(next.id); setTab('notes'); }} progress={progress}/>
-      <div className="workspace"><nav className="section-nav">{sections.map(([id, label, Icon]) => <button key={id} className={tab === id ? 'active' : ''} onClick={() => setTab(id)}><Icon size={18}/><span>{label}</span>{progress.done?.[`${day.id}:${id}`] && <CheckCircle2 className="done" size={16}/>}</button>)}</nav>
-        <div className="content"><View day={day} progress={progress} update={update}/><button className={`complete-button ${progress.done?.[`${day.id}:${tab}`] ? 'completed' : ''}`} onClick={markDone}><CheckCircle2 size={19}/>{progress.done?.[`${day.id}:${tab}`] ? 'Bölüm tamamlandı' : 'Bu bölümü tamamladım'}</button></div>
+      <ArchivePicker lessons={index.lessons} activeId={hw.id} onPick={load}/><DayPicker days={hw.days} active={day} onPick={(next) => { setDayId(next.id); setTab('notes'); }} progress={progress} english={hw.englishPresentation}/>
+      <div className="workspace"><nav className="section-nav">{sections.map(([id, label, Icon]) => <button key={id} className={tab === id ? 'active' : ''} onClick={() => setTab(id)}><Icon size={18}/><span>{hw.englishPresentation ? {notes:'Notes',words:'Vocabulary',practice:'Practice',reading:'Reading',listening:'Listening',test:'Test'}[id] : label}</span>{progress.done?.[`${day.id}:${id}`] && <CheckCircle2 className="done" size={16}/>}</button>)}</nav>
+        <div className="content"><View day={day} progress={progress} update={update} english={hw.englishPresentation}/><button className={`complete-button ${progress.done?.[`${day.id}:${tab}`] ? 'completed' : ''}`} onClick={markDone}><CheckCircle2 size={19}/>{hw.englishPresentation ? (progress.done?.[`${day.id}:${tab}`] ? 'Section completed' : 'Mark section complete') : (progress.done?.[`${day.id}:${tab}`] ? 'Bölüm tamamlandı' : 'Bu bölümü tamamladım')}</button></div>
       </div>
     </main><footer><span>İlerleme ve kişisel cümleler bu tarayıcıda saklanır.</span><button onClick={() => { if (window.confirm('Bu ödevdeki ilerlemeyi sıfırlamak istiyor musun?')) { localStorage.removeItem(storageKey(hw)); location.reload(); } }}><RotateCcw size={15}/> İlerlemeyi sıfırla</button></footer></div>;
 }
